@@ -67,10 +67,10 @@ const release = async() => {
   await execa('git', ['commit', '-m', `docs(CHANGELOG): Update CHANGELOG to ${version}`], { stdio: 'inherit' })
 
   console.log('[./scripts/release.js] (git) commiting release.')
-  await execa('git', ['commit', '--allow-empty', '-m', `release: ${version}`], { stdio: 'inherit' })
+  await execa('git', ['commit', '--allow-empty', '-S', '-m', `release: ${version}`], { stdio: 'inherit' })
 
   console.log('[./scripts/release.js] (git) tagging release.')
-  await execa('git', ['tag', `${version}`, '-m', `${version}`], { stdio: 'inherit' })
+  await execa('git', ['tag', '-s', `${version}`, '-m', `${version}`], { stdio: 'inherit' })
 
   console.log('[./scripts/release.js] (git) pushing with following tags.')
   await execa('git', ['push', '--tags'], { stdio: 'inherit' })
