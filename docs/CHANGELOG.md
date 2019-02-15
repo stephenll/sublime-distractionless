@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/jrappen/sublime-distractionless/compare/1.3.0...1.3.1) (2019-02-15)
+
+### Bug Fixes
+
+* **js:** Enforce signed (release) commits and tags ([3585a14](https://github.com/jrappen/sublime-distractionless/commit/3585a14))
+
 <a name="1.3.0"></a>
 # 1.3.0 (2019-02-15)
 
