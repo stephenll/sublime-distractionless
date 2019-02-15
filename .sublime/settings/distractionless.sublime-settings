@@ -1,0 +1,4 @@
+{
+//  number of changes after which UI is toggled automatically
+    "distractionless.toggle_after": 10
+}

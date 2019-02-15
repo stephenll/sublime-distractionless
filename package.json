@@ -1,0 +1,30 @@
+{
+  "name": "sublime-distractionless",
+  "version": "1.3.0",
+  "description": "Automatic windowed distraction free mode while editing in Sublime Text.",
+  "author": {
+    "name": "Johannes Rappen",
+    "url": "https://github.com/jrappen"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/jrappen/sublime-distractionless#readme",
+  "bugs": {
+    "url": "https://github.com/jrappen/sublime-distractionless/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrappen/sublime-distractionless.git"
+  },
+  "scripts": {
+    "release": "node scripts/release.js"
+  },
+  "engines": {
+    "node": ">= 10.15.1",
+    "npm": ">= 6.4.1"
+  },
+  "devDependencies": {
+    "execa": "^1.0.0",
+    "inquirer": "^6.2.2",
+    "semver": "^5.6.0"
+  }
+}

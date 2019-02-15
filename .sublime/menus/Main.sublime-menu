@@ -1,0 +1,53 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "distractionless",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/distractionless/.sublime/settings/distractionless.sublime-settings",
+                                    "default": "{\n\t\"distractionless.toggle_after\": ${1:10}\n}\n"
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Changelog",
+                                "command": "distractionless_changelog"
+                            },
+                            {
+                                "caption": "Documentation",
+                                "command": "show_overlay",
+                                "args":
+                                {
+                                    "overlay": "command_palette",
+                                    "text": "distractionless: Documentation "
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Issues",
+                                "command": "distractionless_issues"
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Donations",
+                                "command": "distractionless_donations"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

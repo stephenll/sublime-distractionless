@@ -1,0 +1,22 @@
+# macOS
+
+.DS_Store
+Thumbs.db
+
+# Windows
+
+Desktop.ini
+
+# Node.js
+
+node_modules/
+
+# Python
+
+*.cache
+*.log
+*.py[co]
+
+# Sublime Text
+
+*.sublime-workspace

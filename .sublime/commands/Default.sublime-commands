@@ -1,0 +1,33 @@
+[
+    {
+        "caption": "distractionless: Documentation (English)",
+        "command": "distractionless_docs",
+        "args": { "language": "en" }
+    },
+    {
+        "caption": "distractionless: Documentation (Deutsch / German)",
+        "command": "distractionless_docs",
+        "args": { "language": "de" }
+    },
+    {
+        "caption": "distractionless: Changelog",
+        "command": "distractionless_changelog"
+    },
+    {
+        "caption": "distractionless: Issues",
+        "command": "distractionless_issues"
+    },
+    {
+        "caption": "distractionless: Donations",
+        "command": "distractionless_donations"
+    },
+    {
+        "caption": "Preferences: distractionless: Settings",
+        "command": "edit_settings",
+        "args":
+        {
+            "base_file": "${packages}/distractionless/.sublime/settings/distractionless.sublime-settings",
+            "default": "{\n\t\"distractionless.toggle_after\": ${1:10}\n}\n"
+        }
+    }
+]

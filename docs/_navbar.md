@@ -1,0 +1,2 @@
+* [English](/)
+* [Deutsch (German)](/de/)
