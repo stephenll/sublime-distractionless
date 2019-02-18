@@ -5,8 +5,7 @@
 import sublime
 import sublime_plugin
 from collections import defaultdict
-from sublime_lib import NamedSettingsDict, ResourcePath
-
+import sublime_lib
 
 PKG_NAME = __package__.split('.')[0]
 DL_PREF = None
