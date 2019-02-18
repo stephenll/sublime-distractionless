@@ -1,25 +1,43 @@
 [
     {
         "caption": "distractionless: Documentation (English)",
-        "command": "distractionless_docs",
-        "args": { "language": "en" }
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://jrappen.github.io/sublime-distractionless"
+        }
     },
     {
         "caption": "distractionless: Documentation (Deutsch / German)",
-        "command": "distractionless_docs",
-        "args": { "language": "de" }
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://jrappen.github.io/sublime-distractionless/#/de"
+        }
     },
     {
         "caption": "distractionless: Changelog",
-        "command": "distractionless_changelog"
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://jrappen.github.io/sublime-distractionless/#/CHANGELOG"
+        }
     },
     {
         "caption": "distractionless: Issues",
-        "command": "distractionless_issues"
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://github.com/jrappen/sublime-distractionless/issues"
+        }
     },
     {
         "caption": "distractionless: Donations",
-        "command": "distractionless_donations"
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://www.paypal.me/jrappen"
+        }
     },
     {
         "caption": "Preferences: distractionless: Settings",

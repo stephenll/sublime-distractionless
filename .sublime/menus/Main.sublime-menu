@@ -23,26 +23,51 @@
                             { "caption": "-" },
                             {
                                 "caption": "Changelog",
-                                "command": "distractionless_changelog"
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://jrappen.github.io/sublime-distractionless/#/CHANGELOG"
+                                }
                             },
                             {
                                 "caption": "Documentation",
-                                "command": "show_overlay",
-                                "args":
-                                {
-                                    "overlay": "command_palette",
-                                    "text": "distractionless: Documentation "
-                                }
+                                "children":
+                                [
+                                    {
+                                        "caption": "English",
+                                        "command": "open_url",
+                                        "args":
+                                        {
+                                            "url": "https://jrappen.github.io/sublime-distractionless"
+                                        }
+                                    },
+                                    {
+                                        "caption": "Deutsch (German)",
+                                        "command": "open_url",
+                                        "args":
+                                        {
+                                            "url": "https://jrappen.github.io/sublime-distractionless/#/de"
+                                        }
+                                    }
+                                ]
                             },
                             { "caption": "-" },
                             {
                                 "caption": "Issues",
-                                "command": "distractionless_issues"
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://github.com/jrappen/sublime-distractionless/issues"
+                                }
                             },
                             { "caption": "-" },
                             {
                                 "caption": "Donations",
-                                "command": "distractionless_donations"
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://www.paypal.me/jrappen"
+                                }
                             }
                         ]
                     }
