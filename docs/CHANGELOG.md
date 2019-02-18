@@ -1,3 +1,12 @@
+## [1.3.5](https://github.com/jrappen/sublime-distractionless/compare/1.3.4...1.3.5) (2019-02-18)
+
+
+### Bug Fixes
+
+* **dependencies:** Remove sublime_lib dependency ([aa5861e](https://github.com/jrappen/sublime-distractionless/commit/aa5861e))
+
+
+
 ## [1.3.4](https://github.com/jrappen/sublime-distractionless/compare/1.3.3...1.3.4) (2019-02-18)
 
 
