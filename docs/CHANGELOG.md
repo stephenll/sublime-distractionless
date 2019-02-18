@@ -1,3 +1,14 @@
+## [1.3.2](https://github.com/jrappen/sublime-distractionless/compare/1.3.1...1.3.2) (2019-02-18)
+
+
+### Bug Fixes
+
+* **JavaScript helpers:** Use release tool to push from master to origin ([0babdf9](https://github.com/jrappen/sublime-distractionless/commit/0babdf9))
+* **Python:** Fix how sublime_lib is used ([98f2914](https://github.com/jrappen/sublime-distractionless/commit/98f2914))
+* **Python:** Use sublime to open URLs instead of webbrowser ([5884ac1](https://github.com/jrappen/sublime-distractionless/commit/5884ac1))
+
+
+
 ## [1.3.1](https://github.com/jrappen/sublime-distractionless/compare/1.3.0...1.3.1) (2019-02-15)
 
 ### Bug Fixes
