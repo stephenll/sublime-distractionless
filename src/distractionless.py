@@ -23,11 +23,11 @@ def load_settings(reload=False):
         global DL_PREF
         DL_PREF = sublime_lib.NamedSettingsDict(PKG_NAME)
         DL_PREF.subscribe(
-            load_settings(reload=True),
-            default_value=sublime_lib.ResourcePath(
+            sublime_lib.ResourcePath(
                 'Packages/{}/.sublime/settings/{}.sublime-settings'
                 .format(PKG_NAME, PKG_NAME)
-            ).read_bytes()
+            ).read_bytes(),
+            load_settings(reload=True)
         )
     except Exception as e:
         print(e)
