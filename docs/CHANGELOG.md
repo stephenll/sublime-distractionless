@@ -1,3 +1,12 @@
+## [1.3.3](https://github.com/jrappen/sublime-distractionless/compare/1.3.2...1.3.3) (2019-02-18)
+
+
+### Bug Fixes
+
+* **sublime_lib:** Fix subscription to settings change ([7f47792](https://github.com/jrappen/sublime-distractionless/commit/7f47792))
+
+
+
 ## [1.3.2](https://github.com/jrappen/sublime-distractionless/compare/1.3.1...1.3.2) (2019-02-18)
 
 
