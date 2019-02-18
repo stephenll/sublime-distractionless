@@ -5,7 +5,6 @@
 import sublime
 import sublime_plugin
 from collections import defaultdict
-import sublime_lib
 
 PKG_NAME = __package__.split('.')[0]
 DL_PREF = None
@@ -20,14 +19,9 @@ def load_settings(reload=False):
 
     try:
         global DL_PREF
-        DL_PREF = sublime_lib.NamedSettingsDict(PKG_NAME)
-        DL_PREF.subscribe(
-            sublime_lib.ResourcePath(
-                'Packages/{}/.sublime/settings/{}.sublime-settings'
-                .format(PKG_NAME, PKG_NAME)
-            ).read_bytes(),
-            load_settings(reload=True)
-        )
+        DL_PREF = sublime.load_settings('{}.sublime-settings'.format(PKG_NAME))
+        DL_PREF.clear_on_change('reload')
+        DL_PREF.add_on_change('reload', lambda: load_settings(reload=True))
     except Exception as e:
         print(e)
 
@@ -67,7 +61,7 @@ class DistractionlessListener(sublime_plugin.EventListener):
         count = increment_change_count(w.id())
         if count == DL_PREF.get('distractionless.toggle_after', 10):
             # Preferences > Settings - Distraction Free
-            DF_PREF = sublime_lib.NamedSettingsDict('Distraction Free')
+            DF_PREF = sublime.load_settings('Distraction Free.sublime-settings')
             for v in w.views():
                 v.settings().set('draw_centered',
                                  DF_PREF.get('draw_centered', True))
@@ -120,7 +114,7 @@ class DistractionlessListener(sublime_plugin.EventListener):
         # reset change_counter
         set_change_count(w.id(), 0)
         # Preferences > Settings
-        PREF = sublime_lib.NamedSettingsDict('Preferences')
+        PREF = sublime.load_settings('Preferences.sublime-settings')
         for v in w.views():
             v.settings().set('draw_centered',
                              PREF.get('draw_centered', False))
