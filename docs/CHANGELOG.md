@@ -1,3 +1,12 @@
+## [1.3.4](https://github.com/jrappen/sublime-distractionless/compare/1.3.3...1.3.4) (2019-02-18)
+
+
+### Bug Fixes
+
+* **sublime dependency:** Fix import of sublime_lib ([a5fedbe](https://github.com/jrappen/sublime-distractionless/commit/a5fedbe))
+
+
+
 ## [1.3.3](https://github.com/jrappen/sublime-distractionless/compare/1.3.2...1.3.3) (2019-02-18)
 
 
