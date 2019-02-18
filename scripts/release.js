@@ -73,7 +73,7 @@ const release = async() => {
   await execa('git', ['tag', '-s', `${version}`, '-m', `${version}`], { stdio: 'inherit' })
 
   console.log('[./scripts/release.js] (git) pushing with following tags.')
-  await execa('git', ['push', '--tags'], { stdio: 'inherit' })
+  await execa('git', ['push', 'origin', 'master', '--tags'], { stdio: 'inherit' })
 
   console.log('[./scripts/release.js] done.')
 }
