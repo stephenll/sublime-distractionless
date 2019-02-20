@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/jrappen/sublime-distractionless/compare/1.3.6...1.4.0) (2019-02-20)
+
+
+### Features
+
+* **distractionless:** Enable being able to choose which UI elements toggle when switching modes ([5fe5d1a](https://github.com/jrappen/sublime-distractionless/commit/5fe5d1a))
+
+
+
 ## [1.3.6](https://github.com/jrappen/sublime-distractionless/compare/1.3.5...1.3.6) (2019-02-18)
 
 
