@@ -39,10 +39,14 @@ distractionless lässt Sublime Text automatisch zurück in den normalen Modus we
 
 ### Einstellungen
 
-distractionless verwendet die Einstellungen von Sublime Text:
+Verwende die Einstellungen von Sublime Text um anzupassen, wie Ansichten in jedem Modus dargestellt werden:
 
 * `Preferences > Settings`
 * `Preferences > Settings - Distraction Free`
+
+Verwende die distractionless Einstellungen um anzupassen, wann und was beim Umschalten zwischen den Modi passiert:
+
+* `Preferences > Package Settings > distractionless > Settings`
 
 ## Quellcode
 

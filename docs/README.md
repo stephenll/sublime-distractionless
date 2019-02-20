@@ -41,10 +41,14 @@ distractionless will then make Sublime Text automatically switch back to normal 
 
 ### Settings
 
-distractionless uses the Sublime Text settings:
+Use the settings of Sublime Text to customize how views are displayed in each mode:
 
 * `Preferences > Settings`
 * `Preferences > Settings - Distraction Free`
+
+Use the distractionless settings to customize when and what is toggled:
+
+* `Preferences > Package Settings > distractionless > Settings`
 
 ## Source Code
 
