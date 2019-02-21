@@ -8,7 +8,7 @@
 
 ![Screencast](https://raw.githubusercontent.com/jrappen/sublime-distractionless/master/docs/_images/screencast.gif)
 
-> Screencast shows the [`gruvbox`](https://github.com/Briles/gruvbox) Theme & Color Scheme. The font shown is [`Operator Mono` Medium](http://www.typography.com/fonts/operator/overview).
+> Screencast shows the Adaptive Theme with the Mariana Color Scheme. The font shown is `PragmataPro`.
 
 ## Requirements
 

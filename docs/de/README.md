@@ -6,7 +6,7 @@
 
 ![Bildschirmvideo](https://raw.githubusercontent.com/jrappen/sublime-distractionless/master/docs/_images/screencast.gif)
 
-> Bildschirmvideo zeigt die [`gruvbox`](https://github.com/Briles/gruvbox) Theme & Color Scheme Kombination. Die verwendete Schriftart ist [`Operator Mono` Medium](http://www.typography.com/fonts/operator/overview).
+> Das Bildschirmvideo zeigt Adaptive Theme sowie Mariana Color Scheme. Die verwendete Schriftart ist `PragmataPro`.
 
 ## Voraussetzungen
 
