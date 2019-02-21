@@ -44,38 +44,18 @@ const release = async() => {
     return
   }
 
-  console.log('[./scripts/release.js] bumping pkg version.')
   await execa('npm', ['--no-git-tag-version', 'version', version], {})
-
-  console.log('[./scripts/release.js] (git) adding pkg file.')
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
-
-  console.log('[./scripts/release.js] (git) commiting pkg file.')
   await execa('git', ['commit', '-m', `bump: Bump package from ${curVersion} to ${version}`], { stdio: 'inherit' })
 
-  //
   // assuming conventional-changelog-cli is installed globally via npm or yarn
-  //
-
-  console.log('[./scripts/release.js] generating CHANGELOG.')
   await execa('conventional-changelog', ['-p', 'angular', '-i', 'docs/CHANGELOG.md', '-s'], { stdio: 'inherit' })
 
-  console.log('[./scripts/release.js] (git) adding CHANGELOG.')
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
-
-  console.log('[./scripts/release.js] (git) commiting CHANGELOG.')
   await execa('git', ['commit', '-m', `docs(CHANGELOG): Update CHANGELOG to ${version}`], { stdio: 'inherit' })
-
-  console.log('[./scripts/release.js] (git) commiting release.')
   await execa('git', ['commit', '--allow-empty', '-S', '-m', `release: ${version}`], { stdio: 'inherit' })
-
-  console.log('[./scripts/release.js] (git) tagging release.')
   await execa('git', ['tag', '-s', `${version}`, '-m', `${version}`], { stdio: 'inherit' })
-
-  console.log('[./scripts/release.js] (git) pushing with following tags.')
   await execa('git', ['push', 'origin', 'master', '--tags'], { stdio: 'inherit' })
-
-  console.log('[./scripts/release.js] done.')
 }
 
 release().catch(err => {
