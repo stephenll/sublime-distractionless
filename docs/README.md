@@ -45,6 +45,7 @@ Use the settings of Sublime Text to customize how views are displayed in each mo
 
 * `Preferences > Settings`
 * `Preferences > Settings - Distraction Free`
+* `Preferences > Settings - Syntax Specific`
 
 Use the distractionless settings to customize when and what is toggled:
 

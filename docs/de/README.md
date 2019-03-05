@@ -1,3 +1,5 @@
+<div id="readme"></div>
+
 [![Lizenz](https://img.shields.io/github/license/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/blob/master/LICENSE)
 [![Sublime Text unterstützte Versionen](https://img.shields.io/badge/Sublime%20Text-Build%203124+-orange.svg?style=flat-square)](https://www.sublimetext.com)
 [![Downloads Package Control](https://img.shields.io/packagecontrol/dt/distractionless.svg?style=flat-square)](https://packagecontrol.io/packages/distractionless)
@@ -43,6 +45,7 @@ Verwende die Einstellungen von Sublime Text um anzupassen, wie Ansichten in jede
 
 * `Preferences > Settings`
 * `Preferences > Settings - Distraction Free`
+* `Preferences > Settings - Syntax Specific`
 
 Verwende die distractionless Einstellungen um anzupassen, wann und was beim Umschalten zwischen den Modi passiert:
 

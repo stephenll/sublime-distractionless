@@ -1,4 +1,4 @@
-# distractionless plug-in for [Sublime Text](https://www.sublimetext.com)
+# distractionless plug-in for [Sublime Text 3](https://www.sublimetext.com/3)
 
 [![License](https://img.shields.io/github/license/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/blob/master/LICENSE)
 [![Sublime Text minimum required version](https://img.shields.io/badge/Sublime%20Text-Build%203124+-orange.svg?style=flat-square)](https://www.sublimetext.com)
