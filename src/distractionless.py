@@ -44,9 +44,9 @@ class DistractionlessListener(sublime_plugin.EventListener):
         view_prefs.set(setting, df_prefs.get(setting, default))
 
     @staticmethod
-    def _set_change_count(id, count=0):
+    def _reset_change_count(id):
         global change_counter
-        change_counter[id] = count
+        change_counter[id] = 0
 
     @staticmethod
     def _increment_change_count(id):
@@ -59,8 +59,7 @@ class DistractionlessListener(sublime_plugin.EventListener):
         w = view.window()
         if w is None:
             w = sublime.active_window()
-        # reset change_counter
-        self._set_change_count(w.id(), 0)
+        self._reset_change_count(w.id())
         # Preferences > Settings
         PREF = sublime.load_settings('Preferences.sublime-settings')
         for v in w.views():
