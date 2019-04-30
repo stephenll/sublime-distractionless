@@ -1,11 +1,8 @@
 ## [1.4.1](https://github.com/jrappen/sublime-distractionless/compare/1.4.0...1.4.1) (2019-03-05)
 
-
 ### Bug Fixes
 
 * **Settings - Syntax Specific:** Fix syntax specific settings not being applied ([501e5de](https://github.com/jrappen/sublime-distractionless/commit/501e5de)), closes [aziz/DistractionFreeWindow#31](https://github.com/aziz/DistractionFreeWindow/issues/31)
-
-
 
 # [1.4.0](https://github.com/jrappen/sublime-distractionless/compare/1.3.6...1.4.0) (2019-02-20)
 

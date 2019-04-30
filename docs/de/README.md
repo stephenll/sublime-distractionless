@@ -3,6 +3,7 @@
 [![Lizenz](https://img.shields.io/github/license/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/blob/master/LICENSE)
 [![Sublime Text unterstützte Versionen](https://img.shields.io/badge/Sublime%20Text-Build%203124+-orange.svg?style=flat-square)](https://www.sublimetext.com)
 [![Downloads Package Control](https://img.shields.io/packagecontrol/dt/distractionless.svg?style=flat-square)](https://packagecontrol.io/packages/distractionless)
+[![GitHub letzter commit](https://img.shields.io/github/last-commit/jrappen/sublime-distractionless.svg)](https://github.com/jrappen/sublime-distractionless/commits/master)
 [![Aktueller Tag](https://img.shields.io/github/tag/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/tags)
 [![Spende über PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)
 
