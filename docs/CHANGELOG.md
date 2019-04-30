@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/jrappen/sublime-distractionless/compare/1.4.1...1.4.2) (2019-04-30)
+
+
+### Bug Fixes
+
+* disable being able to set a change_counter value other than 0 ([f587f86](https://github.com/jrappen/sublime-distractionless/commit/f587f86))
+
+
+
 ## [1.4.1](https://github.com/jrappen/sublime-distractionless/compare/1.4.0...1.4.1) (2019-03-05)
 
 ### Bug Fixes
