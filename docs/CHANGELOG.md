@@ -1,3 +1,12 @@
+## [1.4.4](https://github.com/jrappen/sublime-distractionless/compare/1.4.3...1.4.4) (2019-05-08)
+
+
+### Bug Fixes
+
+* revert style changes to badges ([4d885a4](https://github.com/jrappen/sublime-distractionless/commit/4d885a4))
+
+
+
 ## [1.4.3](https://github.com/jrappen/sublime-distractionless/compare/1.4.2...1.4.3) (2019-05-08)
 
 
