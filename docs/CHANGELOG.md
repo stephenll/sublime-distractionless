@@ -1,3 +1,12 @@
+## [1.4.3](https://github.com/jrappen/sublime-distractionless/compare/1.4.2...1.4.3) (2019-05-08)
+
+
+### Bug Fixes
+
+* **docs:** Fix shield links in docs ([4346be3](https://github.com/jrappen/sublime-distractionless/commit/4346be3))
+
+
+
 ## [1.4.2](https://github.com/jrappen/sublime-distractionless/compare/1.4.1...1.4.2) (2019-04-30)
 
 ### Bug Fixes
