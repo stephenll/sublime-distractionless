@@ -49,7 +49,7 @@ const release = async() => {
   await execa('git', ['commit', '-m', `bump: Bump package from ${curVersion} to ${version}`], { stdio: 'inherit' })
 
   // assuming conventional-changelog-cli is installed globally via npm or yarn
-  await execa('conventional-changelog', ['-p', 'angular', '-i', 'docs/CHANGELOG.md', '-s'], { stdio: 'inherit' })
+  await execa('conventional-changelog', ['-p', 'angular', '-i', 'CHANGELOG.md', '-s'], { stdio: 'inherit' })
 
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
   await execa('git', ['commit', '-m', `docs(CHANGELOG): Update CHANGELOG to ${version}`], { stdio: 'inherit' })
