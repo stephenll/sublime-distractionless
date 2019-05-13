@@ -42,7 +42,7 @@ distractionless:
 Sublime Text:
 
     channel: stable
-    version: Build 3189 (portable)
+    version: Build 3207 (portable)
     platform: Windows
     architecture: x64
 ```
