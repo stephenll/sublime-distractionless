@@ -33,11 +33,12 @@ module.exports = ctx => ({
     }
   },
   plugins: [
-    ['@vuepress/back-to-top', true],
+    ['@vuepress/active-header-links'],
+    ['@vuepress/back-to-top'],
     ['@vuepress/pwa', {
       serviceWorker: true,
       updatePopup: true
     }],
-    ['@vuepress/medium-zoom', true]
+    ['@vuepress/medium-zoom']
   ]
 })
