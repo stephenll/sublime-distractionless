@@ -8,7 +8,7 @@ from collections import defaultdict
 
 PKG_NAME = __package__.split('.')[0]
 DL_PREF = None
-change_counter = None
+counters = None
 
 
 def load_settings(reload=False):
@@ -27,10 +27,21 @@ def load_settings(reload=False):
 
 def plugin_loaded():
 
-    global change_counter
-    change_counter = defaultdict(int)
+    global counters
+    counters = defaultdict(int)
 
     load_settings(reload=False)
+
+
+def reset_counter(id):
+    global counters
+    counters[id] = 0
+
+
+def increment_counter(id):
+    global counters
+    counters[id] += 1
+    return counters[id]
 
 
 class DistractionlessListener(sublime_plugin.EventListener):
@@ -44,22 +55,11 @@ class DistractionlessListener(sublime_plugin.EventListener):
         view_prefs.set(setting, df_prefs.get(setting, default))
 
     @staticmethod
-    def _reset_change_count(id):
-        global change_counter
-        change_counter[id] = 0
-
-    @staticmethod
-    def _increment_change_count(id):
-        global change_counter
-        change_counter[id] += 1
-        return change_counter[id]
-
-    @staticmethod
     def _leave_dfm_and_reset_count(view):
         w = view.window()
         if w is None:
             w = sublime.active_window()
-        _reset_change_count(w.id())
+        reset_counter(w.id())
         # Preferences > Settings
         PREF = sublime.load_settings('Preferences.sublime-settings')
         for v in w.views():
@@ -95,7 +95,7 @@ class DistractionlessListener(sublime_plugin.EventListener):
         w = view.window()
         if w is None:
             w = sublime.active_window()
-        count = self._increment_change_count(w.id())
+        count = increment_counter(w.id())
         if count is not DL_PREF.get('distractionless.toggle_after', 10):
             return
         # Preferences > Settings - Distraction Free
