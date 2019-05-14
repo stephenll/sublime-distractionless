@@ -1,3 +1,7 @@
+## [1.4.11](https://github.com/jrappen/sublime-distractionless/compare/1.4.10...1.4.11) (2019-05-14)
+
+
+
 ## [1.4.10](https://github.com/jrappen/sublime-distractionless/compare/1.4.9...1.4.10) (2019-05-14)
 
 
