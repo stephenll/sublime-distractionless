@@ -1,3 +1,12 @@
+## [1.4.5](https://github.com/jrappen/sublime-distractionless/compare/1.4.4...1.4.5) (2019-05-14)
+
+
+### Bug Fixes
+
+* Fix invalid usage of self ([af98f23](https://github.com/jrappen/sublime-distractionless/commit/af98f23))
+
+
+
 ## [1.4.4](https://github.com/jrappen/sublime-distractionless/compare/1.4.3...1.4.4) (2019-05-08)
 
 
