@@ -16,19 +16,20 @@
         "url": "git+https://github.com/jrappen/sublime-distractionless.git"
     },
     "scripts": {
-        "release": "node scripts/release.js",
-        "build:docs": "vuepress build docs_source --temp .temp"
+        "docs:build": "vuepress build docs_source --temp .temp",
+        "release": "node scripts/release.js"
     },
     "engines": {
         "node": ">= 10.15.1",
         "npm": ">= 6.4.1"
     },
     "devDependencies": {
-        "@vuepress/plugin-back-to-top": "^1.0.0-alpha.47",
-        "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.47",
-        "@vuepress/plugin-pwa": "^1.0.0-alpha.47",
+        "@vuepress/plugin-back-to-top": "^1.0.0-alpha.48",
+        "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.48",
+        "@vuepress/plugin-pwa": "^1.0.0-alpha.48",
         "execa": "^1.0.0",
         "inquirer": "^6.2.2",
-        "semver": "^5.6.0"
+        "semver": "^5.6.0",
+        "vuepress": "^1.0.0-alpha.48"
     }
 }
