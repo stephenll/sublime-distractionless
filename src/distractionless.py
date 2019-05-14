@@ -59,7 +59,7 @@ class DistractionlessListener(sublime_plugin.EventListener):
         w = view.window()
         if w is None:
             w = sublime.active_window()
-        self._reset_change_count(w.id())
+        _reset_change_count(w.id())
         # Preferences > Settings
         PREF = sublime.load_settings('Preferences.sublime-settings')
         for v in w.views():
@@ -67,16 +67,16 @@ class DistractionlessListener(sublime_plugin.EventListener):
             current_syntax = vs.get('syntax').split('/')[-1].split('.')[0]
             # Preferences > Settings - Syntax Specific
             SYNTAX_PREF = sublime.load_settings(current_syntax + '.sublime-settings')
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'draw_centered', False)
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'draw_indent_guides', True)
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'draw_white_space', 'selection')
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'fold_buttons', True)
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'gutter', True)
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'line_numbers', True)
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'rulers',[])
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'scroll_past_end', True)
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'word_wrap', 'auto')
-            self._reset_setting(vs, SYNTAX_PREF, PREF, 'wrap_width', 0)
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'draw_centered', False)
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'draw_indent_guides', True)
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'draw_white_space', 'selection')
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'fold_buttons', True)
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'gutter', True)
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'line_numbers', True)
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'rulers',[])
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'scroll_past_end', True)
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'word_wrap', 'auto')
+            _reset_setting(vs, SYNTAX_PREF, PREF, 'wrap_width', 0)
         if DL_PREF.get('distractionless.toggle_menu', True):
             if sublime.platform() in ['linux', 'windows']:
                 w.set_menu_visible(True)
