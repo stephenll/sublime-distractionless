@@ -12,4 +12,4 @@
 | Language         | Link                                                      |
 |------------------|-----------------------------------------------------------|
 | English          | <https://jrappen.github.io/sublime-distractionless>       |
-| Deutsch (German) | <https://jrappen.github.io/sublime-distractionless/#/de/> |
+| Deutsch (German) | <https://jrappen.github.io/sublime-distractionless/de/>   |

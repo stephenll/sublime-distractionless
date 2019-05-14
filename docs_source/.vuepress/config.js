@@ -1,4 +1,5 @@
 module.exports = ctx => ({
+  base: '/sublime-distractionless/',
   dest: 'docs',
   locales: {
     '/': {
@@ -38,9 +39,5 @@ module.exports = ctx => ({
       updatePopup: true
     }],
     ['@vuepress/medium-zoom', true]
-  ],
-  extraWatchFiles: [
-    '.vuepress/nav/en.js',
-    '.vuepress/nav/de.js',
   ]
 })

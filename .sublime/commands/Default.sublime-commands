@@ -12,7 +12,7 @@
         "command": "open_url",
         "args":
         {
-            "url": "https://jrappen.github.io/sublime-distractionless/#/de"
+            "url": "https://jrappen.github.io/sublime-distractionless/de"
         }
     },
     {
@@ -20,7 +20,7 @@
         "command": "open_url",
         "args":
         {
-            "url": "https://jrappen.github.io/sublime-distractionless/#/CHANGELOG"
+            "url": "https://github.com/jrappen/sublime-distractionless/blob/master/CHANGELOG.md"
         }
     },
     {
