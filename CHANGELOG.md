@@ -1,3 +1,12 @@
+## [1.4.8](https://github.com/jrappen/sublime-distractionless/compare/1.4.7...1.4.8) (2019-05-14)
+
+
+### Bug Fixes
+
+* **docs:** Fix vuepress config issues ([d23caf6](https://github.com/jrappen/sublime-distractionless/commit/d23caf6))
+
+
+
 ## [1.4.7](https://github.com/jrappen/sublime-distractionless/compare/1.4.6...1.4.7) (2019-05-14)
 
 
