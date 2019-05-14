@@ -1,3 +1,12 @@
+## [1.4.7](https://github.com/jrappen/sublime-distractionless/compare/1.4.6...1.4.7) (2019-05-14)
+
+
+### Bug Fixes
+
+* **docs:** minor issues with link targets ([e152567](https://github.com/jrappen/sublime-distractionless/commit/e152567))
+
+
+
 ## [1.4.6](https://github.com/jrappen/sublime-distractionless/compare/1.4.5...1.4.6) (2019-05-14)
 
 
