@@ -1,3 +1,7 @@
+---
+footer: ISC Licensed | Copyright © 2017 Johannes Rappen
+---
+
 <div id="readme"></div>
 
 [![Lizenz](https://img.shields.io/github/license/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/blob/master/LICENSE)
@@ -7,7 +11,7 @@
 [![Aktueller Tag](https://img.shields.io/github/tag/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/tags)
 [![Spende über PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)
 
-![Bildschirmvideo](https://raw.githubusercontent.com/jrappen/sublime-distractionless/master/docs/_images/screencast.gif)
+![Bildschirmvideo](../.vuepress/images/screencast.gif)
 
 > Das Bildschirmvideo zeigt Adaptive Theme sowie Mariana Color Scheme. Die verwendete Schriftart ist `PragmataPro`.
 

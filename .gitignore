@@ -12,6 +12,10 @@ Desktop.ini
 node_modules/
 package-lock.json
 
+# Vuepress
+
+.temp/
+
 # Python
 
 *.cache

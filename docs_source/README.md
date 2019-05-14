@@ -1,6 +1,4 @@
 ---
-home: true
-heroImage: /screencast.gif
 footer: ISC Licensed | Copyright © 2017 Johannes Rappen
 ---
 
@@ -11,7 +9,7 @@ footer: ISC Licensed | Copyright © 2017 Johannes Rappen
 [![Latest tag](https://img.shields.io/github/tag/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/tags)
 [![Donate via PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)
 
-![Screencast](https://raw.githubusercontent.com/jrappen/sublime-distractionless/master/docs/_images/screencast.gif)
+![Screencast](./.vuepress/images/screencast.gif)
 
 > Screencast shows the Adaptive Theme with the Mariana Color Scheme. The font shown is `PragmataPro`.
 

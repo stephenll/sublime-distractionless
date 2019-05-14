@@ -1,29 +1,20 @@
 ## [1.4.5](https://github.com/jrappen/sublime-distractionless/compare/1.4.4...1.4.5) (2019-05-14)
 
-
 ### Bug Fixes
 
 * Fix invalid usage of self ([af98f23](https://github.com/jrappen/sublime-distractionless/commit/af98f23))
 
-
-
 ## [1.4.4](https://github.com/jrappen/sublime-distractionless/compare/1.4.3...1.4.4) (2019-05-08)
-
 
 ### Bug Fixes
 
 * revert style changes to badges ([4d885a4](https://github.com/jrappen/sublime-distractionless/commit/4d885a4))
 
-
-
 ## [1.4.3](https://github.com/jrappen/sublime-distractionless/compare/1.4.2...1.4.3) (2019-05-08)
-
 
 ### Bug Fixes
 
 * **docs:** Fix shield links in docs ([4346be3](https://github.com/jrappen/sublime-distractionless/commit/4346be3))
-
-
 
 ## [1.4.2](https://github.com/jrappen/sublime-distractionless/compare/1.4.1...1.4.2) (2019-04-30)
 
