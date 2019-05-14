@@ -1,3 +1,12 @@
+## [1.4.6](https://github.com/jrappen/sublime-distractionless/compare/1.4.5...1.4.6) (2019-05-14)
+
+
+### Bug Fixes
+
+* **docs:** Fix minor issues with docs migration ([6cdfd58](https://github.com/jrappen/sublime-distractionless/commit/6cdfd58))
+
+
+
 ## [1.4.5](https://github.com/jrappen/sublime-distractionless/compare/1.4.4...1.4.5) (2019-05-14)
 
 ### Bug Fixes
