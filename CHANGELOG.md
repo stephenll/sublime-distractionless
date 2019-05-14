@@ -1,11 +1,8 @@
 ## [1.4.9](https://github.com/jrappen/sublime-distractionless/compare/1.4.8...1.4.9) (2019-05-14)
 
-
 ### Bug Fixes
 
-* Fix not ST leaving distractionless mode ([e28a8a6](https://github.com/jrappen/sublime-distractionless/commit/e28a8a6))
-
-
+* Fix ST not leaving distractionless mode ([e28a8a6](https://github.com/jrappen/sublime-distractionless/commit/e28a8a6))
 
 ## [1.4.8](https://github.com/jrappen/sublime-distractionless/compare/1.4.7...1.4.8) (2019-05-14)
 
