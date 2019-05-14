@@ -1,4 +1,8 @@
-<div id="readme"></div>
+---
+home: true
+heroImage: /screencast.gif
+footer: ISC Licensed | Copyright © 2017 Johannes Rappen
+---
 
 [![License](https://img.shields.io/github/license/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/blob/master/LICENSE)
 [![Sublime Text minimum required version](https://img.shields.io/badge/Sublime%20Text-Build%203124+-orange.svg?style=flat-square)](https://www.sublimetext.com)

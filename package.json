@@ -1,6 +1,6 @@
 {
     "name": "sublime-distractionless",
-    "version": "1.4.4",
+    "version": "1.4.5",
     "description": "Automatic windowed distraction free mode while editing in Sublime Text.",
     "author": {
         "name": "Johannes Rappen",
@@ -16,7 +16,8 @@
         "url": "git+https://github.com/jrappen/sublime-distractionless.git"
     },
     "scripts": {
-        "release": "node scripts/release.js"
+        "release": "node scripts/release.js",
+        "build:docs": "vuepress build docs_source --temp .temp"
     },
     "engines": {
         "node": ">= 10.15.1",
