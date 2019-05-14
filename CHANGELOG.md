@@ -1,3 +1,12 @@
+## [1.4.12](https://github.com/jrappen/sublime-distractionless/compare/1.4.11...1.4.12) (2019-05-14)
+
+
+### Bug Fixes
+
+* Fix usage of self ([552ee0d](https://github.com/jrappen/sublime-distractionless/commit/552ee0d))
+
+
+
 ## [1.4.11](https://github.com/jrappen/sublime-distractionless/compare/1.4.10...1.4.11) (2019-05-14)
 
 ## [1.4.10](https://github.com/jrappen/sublime-distractionless/compare/1.4.9...1.4.10) (2019-05-14)
