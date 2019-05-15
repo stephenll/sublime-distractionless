@@ -1,25 +1,8 @@
-## [1.4.12](https://github.com/jrappen/sublime-distractionless/compare/1.4.11...1.4.12) (2019-05-14)
-
+## [1.4.12](https://github.com/jrappen/sublime-distractionless/compare/1.4.8...1.4.12) (2019-05-14)
 
 ### Bug Fixes
 
 * Fix usage of self ([552ee0d](https://github.com/jrappen/sublime-distractionless/commit/552ee0d))
-
-
-
-## [1.4.11](https://github.com/jrappen/sublime-distractionless/compare/1.4.10...1.4.11) (2019-05-14)
-
-## [1.4.10](https://github.com/jrappen/sublime-distractionless/compare/1.4.9...1.4.10) (2019-05-14)
-
-### Bug Fixes
-
-* Fix global name not defined error ([1f050af](https://github.com/jrappen/sublime-distractionless/commit/1f050af))
-
-## [1.4.9](https://github.com/jrappen/sublime-distractionless/compare/1.4.8...1.4.9) (2019-05-14)
-
-### Bug Fixes
-
-* Fix ST not leaving distractionless mode ([e28a8a6](https://github.com/jrappen/sublime-distractionless/commit/e28a8a6))
 
 ## [1.4.8](https://github.com/jrappen/sublime-distractionless/compare/1.4.7...1.4.8) (2019-05-14)
 
@@ -33,17 +16,11 @@
 
 * **docs:** minor issues with link targets ([e152567](https://github.com/jrappen/sublime-distractionless/commit/e152567))
 
-## [1.4.6](https://github.com/jrappen/sublime-distractionless/compare/1.4.5...1.4.6) (2019-05-14)
+## [1.4.6](https://github.com/jrappen/sublime-distractionless/compare/1.4.4...1.4.6) (2019-05-14)
 
 ### Bug Fixes
 
 * **docs:** Fix minor issues with docs migration ([6cdfd58](https://github.com/jrappen/sublime-distractionless/commit/6cdfd58))
-
-## [1.4.5](https://github.com/jrappen/sublime-distractionless/compare/1.4.4...1.4.5) (2019-05-14)
-
-### Bug Fixes
-
-* Fix invalid usage of self ([af98f23](https://github.com/jrappen/sublime-distractionless/commit/af98f23))
 
 ## [1.4.4](https://github.com/jrappen/sublime-distractionless/compare/1.4.3...1.4.4) (2019-05-08)
 

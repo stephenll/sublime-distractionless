@@ -44,15 +44,15 @@ def increment_counter(id):
     return counters[id]
 
 
+def reset_view_setting(V_PREF, SYNTAX_PREF, PREF, setting, default):
+    V_PREF.set(setting, SYNTAX_PREF.get(setting, PREF.get(setting, default)))
+
+
+def set_view_setting(V_PREF, DF_PREF, setting, default):
+    V_PREF.set(setting, DF_PREF.get(setting, default))
+
+
 class DistractionlessListener(sublime_plugin.EventListener):
-
-    @staticmethod
-    def _reset_setting(view_prefs, syntax_prefs, subl_prefs, setting, default):
-        view_prefs.set(setting, syntax_prefs.get(setting, subl_prefs.get(setting, default)))
-
-    @staticmethod
-    def _set_setting(view_prefs, df_prefs, setting, default):
-        view_prefs.set(setting, df_prefs.get(setting, default))
 
     @staticmethod
     def _leave_dfm_and_reset_count(view):
@@ -63,20 +63,20 @@ class DistractionlessListener(sublime_plugin.EventListener):
         # Preferences > Settings
         PREF = sublime.load_settings('Preferences.sublime-settings')
         for v in w.views():
-            vs = v.settings()
-            current_syntax = vs.get('syntax').split('/')[-1].split('.')[0]
+            V_PREF = v.settings()
+            current_syntax = V_PREF.get('syntax').split('/')[-1].split('.')[0]
             # Preferences > Settings - Syntax Specific
             SYNTAX_PREF = sublime.load_settings(current_syntax + '.sublime-settings')
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'draw_centered', False)
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'draw_indent_guides', True)
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'draw_white_space', 'selection')
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'fold_buttons', True)
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'gutter', True)
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'line_numbers', True)
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'rulers',[])
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'scroll_past_end', True)
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'word_wrap', 'auto')
-            _reset_setting(vs, SYNTAX_PREF, PREF, 'wrap_width', 0)
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'draw_centered', False)
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'draw_indent_guides', True)
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'draw_white_space', 'selection')
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'fold_buttons', True)
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'gutter', True)
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'line_numbers', True)
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'rulers',[])
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'scroll_past_end', True)
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'word_wrap', 'auto')
+            reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'wrap_width', 0)
         if DL_PREF.get('distractionless.toggle_menu', True):
             if sublime.platform() in ['linux', 'windows']:
                 w.set_menu_visible(True)
@@ -101,17 +101,17 @@ class DistractionlessListener(sublime_plugin.EventListener):
         # Preferences > Settings - Distraction Free
         DF_PREF = sublime.load_settings('Distraction Free.sublime-settings')
         for v in w.views():
-            vs = v.settings()
-            self._set_setting(vs, DF_PREF, 'draw_centered', True)
-            self._set_setting(vs, DF_PREF, 'draw_indent_guides', True)
-            self._set_setting(vs, DF_PREF, 'draw_white_space', 'selection')
-            self._set_setting(vs, DF_PREF, 'fold_buttons', True)
-            self._set_setting(vs, DF_PREF, 'gutter', False)
-            self._set_setting(vs, DF_PREF, 'line_numbers', False)
-            self._set_setting(vs, DF_PREF, 'rulers', [])
-            self._set_setting(vs, DF_PREF, 'scroll_past_end', True)
-            self._set_setting(vs, DF_PREF, 'word_wrap', True)
-            self._set_setting(vs, DF_PREF, 'wrap_width', 80)
+            V_PREF = v.settings()
+            set_view_setting(V_PREF, DF_PREF, 'draw_centered', True)
+            set_view_setting(V_PREF, DF_PREF, 'draw_indent_guides', True)
+            set_view_setting(V_PREF, DF_PREF, 'draw_white_space', 'selection')
+            set_view_setting(V_PREF, DF_PREF, 'fold_buttons', True)
+            set_view_setting(V_PREF, DF_PREF, 'gutter', False)
+            set_view_setting(V_PREF, DF_PREF, 'line_numbers', False)
+            set_view_setting(V_PREF, DF_PREF, 'rulers', [])
+            set_view_setting(V_PREF, DF_PREF, 'scroll_past_end', True)
+            set_view_setting(V_PREF, DF_PREF, 'word_wrap', True)
+            set_view_setting(V_PREF, DF_PREF, 'wrap_width', 80)
         if DL_PREF.get('distractionless.toggle_menu', True):
             if sublime.platform() in ['linux', 'windows']:
                 w.set_menu_visible(False)
