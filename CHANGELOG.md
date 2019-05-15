@@ -1,8 +1,8 @@
-## [1.4.12](https://github.com/jrappen/sublime-distractionless/compare/1.4.8...1.4.12) (2019-05-14)
+## [1.4.13](https://github.com/jrappen/sublime-distractionless/compare/1.4.8...1.4.13) (2019-05-15)
 
 ### Bug Fixes
 
-* Fix usage of self ([552ee0d](https://github.com/jrappen/sublime-distractionless/commit/552ee0d))
+* Fix helper functions ([04a0a13](https://github.com/jrappen/sublime-distractionless/commit/04a0a13))
 
 ## [1.4.8](https://github.com/jrappen/sublime-distractionless/compare/1.4.7...1.4.8) (2019-05-14)
 
