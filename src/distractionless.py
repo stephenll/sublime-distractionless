@@ -34,28 +34,33 @@ def plugin_loaded():
 
 
 def reset_counter(id):
+
     global counters
     counters[id] = 0
 
 
 def increment_counter(id):
+
     global counters
     counters[id] += 1
+
     return counters[id]
 
 
 def reset_view_setting(V_PREF, SYNTAX_PREF, PREF, setting, default):
+
     V_PREF.set(setting, SYNTAX_PREF.get(setting, PREF.get(setting, default)))
 
 
 def set_view_setting(V_PREF, DF_PREF, setting, default):
+
     V_PREF.set(setting, DF_PREF.get(setting, default))
 
 
 class DistractionlessListener(sublime_plugin.EventListener):
 
     @staticmethod
-    def _leave_dfm_and_reset_count(view):
+    def _revert_to_normal_and_reset_count(view):
         w = view.window()
         if w is None:
             w = sublime.active_window()
@@ -125,19 +130,19 @@ class DistractionlessListener(sublime_plugin.EventListener):
             w.set_status_bar_visible(False)
 
     def on_activated_async(self, view):
-        self._leave_dfm_and_reset_count(view)
+        self._revert_to_normal_and_reset_count(view)
 
     def on_new_async(self, view):
-        self._leave_dfm_and_reset_count(view)
+        self._revert_to_normal_and_reset_count(view)
 
     def on_clone_async(self, view):
-        self._leave_dfm_and_reset_count(view)
+        self._revert_to_normal_and_reset_count(view)
 
     def on_load_async(self, view):
-        self._leave_dfm_and_reset_count(view)
+        self._revert_to_normal_and_reset_count(view)
 
     def on_pre_save_async(self, view):
-        self._leave_dfm_and_reset_count(view)
+        self._revert_to_normal_and_reset_count(view)
 
     def on_pre_close(self, view):
-        self._leave_dfm_and_reset_count(view)
+        self._revert_to_normal_and_reset_count(view)
