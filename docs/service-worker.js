@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "eaffe53df88aa6b07eb935b11a6d3154"
+    "revision": "0eddff8f4957e904adc244fb028581b2"
   },
   {
     "url": "assets/css/0.styles.0e9ab3b0.css",
@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "revision": "b5e99e94c62c886d65d2b3fd9a2c3fea"
   },
   {
-    "url": "assets/js/app.ca37e7e5.js",
-    "revision": "8dc5db9f627b835c9d7d4f1aa3d72981"
+    "url": "assets/js/app.7e45b567.js",
+    "revision": "36f52520cdd5a89707dbe451e5a8c8d4"
   },
   {
     "url": "de/index.html",
-    "revision": "24d66470bc84beb15a838b14db3678c6"
+    "revision": "7b152f10a30cd1c35b5ed630eca86f00"
   },
   {
     "url": "index.html",
-    "revision": "c58ee2ef8b59851fb2b20840d759fc4b"
+    "revision": "f845ffc26051ef745b37c5fc400407c8"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
