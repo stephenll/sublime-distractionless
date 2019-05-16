@@ -1,3 +1,12 @@
+## [1.4.14](https://github.com/jrappen/sublime-distractionless/compare/1.4.13...1.4.14) (2019-05-16)
+
+
+### Bug Fixes
+
+* Fix display of docs sidebar ([8973233](https://github.com/jrappen/sublime-distractionless/commit/8973233))
+
+
+
 ## [1.4.13](https://github.com/jrappen/sublime-distractionless/compare/1.4.8...1.4.13) (2019-05-15)
 
 ### Bug Fixes
