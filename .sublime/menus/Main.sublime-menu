@@ -42,7 +42,7 @@
                                         }
                                     },
                                     {
-                                        "caption": "Deutsch (German)",
+                                        "caption": "German (Deutsch)",
                                         "command": "open_url",
                                         "args":
                                         {
