@@ -24,13 +24,17 @@ module.exports = ctx => ({
         label: 'English',
         selectText: '🌐 Languages',
         editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated'
+        lastUpdated: 'Last Updated',
+        sidebar: 'auto',
+        sidebarDepth: 2
       },
       '/de/': {
         label: 'Deutsch',
         selectText: '🌐 Sprachen',
         editLinkText: 'Ändere diese Seite auf GitHub',
-        lastUpdated: 'Zuletzt aktualisiert'
+        lastUpdated: 'Zuletzt aktualisiert',
+        sidebar: 'auto',
+        sidebarDepth: 2
       }
     }
   },
