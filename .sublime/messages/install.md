@@ -1,11 +1,15 @@
-## Installed `distractionless` for Sublime Text
+Thank you for choosing `distractionless`
+----------------------------------------
+
+Documentation
+-------------
 
 Please read the docs, which you can find:
 
-* via the Preferences menu
+* via Preferences > Package settings > distractionless
 * or the Command Palette
 
 and which are currently available in:
 
 * English
-* Deutsch (German)
+* German (Deutsch)
