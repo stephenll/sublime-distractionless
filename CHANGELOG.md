@@ -1,3 +1,13 @@
+## [1.4.15](https://github.com/jrappen/sublime-distractionless/compare/1.4.14...1.4.15) (2019-05-27)
+
+
+### Bug Fixes
+
+* **gitignore:** update gitignore for Windows ([6f2f958](https://github.com/jrappen/sublime-distractionless/commit/6f2f958))
+* **python:** Fix minor issue with pref-less views ([857c1b8](https://github.com/jrappen/sublime-distractionless/commit/857c1b8))
+
+
+
 ## [1.4.14](https://github.com/jrappen/sublime-distractionless/compare/1.4.13...1.4.14) (2019-05-16)
 
 ### Bug Fixes
