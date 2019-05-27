@@ -49,7 +49,10 @@ def increment_counter(id):
 
 def reset_view_setting(V_PREF, SYNTAX_PREF, PREF, setting, default):
 
-    V_PREF.set(setting, SYNTAX_PREF.get(setting, PREF.get(setting, default)))
+    if SYNTAX_PREF is not None:
+        V_PREF.set(setting, SYNTAX_PREF.get(setting, PREF.get(setting, default)))
+    else:
+        V_PREF.set(setting, PREF.get(setting, default))
 
 
 def set_view_setting(V_PREF, DF_PREF, setting, default):
@@ -69,9 +72,11 @@ class DistractionlessListener(sublime_plugin.EventListener):
         PREF = sublime.load_settings('Preferences.sublime-settings')
         for v in w.views():
             V_PREF = v.settings()
+            if V_PREF is None:
+                continue
             current_syntax = V_PREF.get('syntax').split('/')[-1].split('.')[0]
             # Preferences > Settings - Syntax Specific
-            SYNTAX_PREF = sublime.load_settings(current_syntax + '.sublime-settings')
+            SYNTAX_PREF = sublime.load_settings(current_syntax + '.sublime-settings') if current_syntax is not None else None
             reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'draw_centered', False)
             reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'draw_indent_guides', True)
             reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'draw_white_space', 'selection')
@@ -107,6 +112,8 @@ class DistractionlessListener(sublime_plugin.EventListener):
         DF_PREF = sublime.load_settings('Distraction Free.sublime-settings')
         for v in w.views():
             V_PREF = v.settings()
+            if V_PREF is None:
+                continue
             set_view_setting(V_PREF, DF_PREF, 'draw_centered', True)
             set_view_setting(V_PREF, DF_PREF, 'draw_indent_guides', True)
             set_view_setting(V_PREF, DF_PREF, 'draw_white_space', 'selection')
