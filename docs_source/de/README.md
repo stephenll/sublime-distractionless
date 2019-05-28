@@ -11,6 +11,8 @@ footer: ISC Licensed | Copyright © 2017 Johannes Rappen
 [![Aktueller Tag](https://img.shields.io/github/tag/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/tags)
 [![Spende über PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)
 
+# distractionless Erweiterung für [Sublime Text 3](https://www.sublimetext.com/3)
+
 ![Bildschirmvideo](../.vuepress/images/screencast.gif)
 
 > Das Bildschirmvideo zeigt Adaptive Theme sowie Mariana Color Scheme. Die verwendete Schriftart ist `PragmataPro`.
@@ -49,8 +51,8 @@ distractionless lässt Sublime Text automatisch zurück in den normalen Modus we
 Verwende die Einstellungen von Sublime Text um anzupassen, wie Ansichten in jedem Modus dargestellt werden:
 
 * `Preferences > Settings`
-* `Preferences > Settings - Distraction Free`
 * `Preferences > Settings - Syntax Specific`
+* `Preferences > Settings - Distraction Free`
 
 Verwende die distractionless Einstellungen um anzupassen, wann und was beim Umschalten zwischen den Modi passiert:
 
