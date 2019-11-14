@@ -11,7 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -21,58 +27,57 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "ec2c3ee02bf21353f41060c6f71f8d80"
+    "revision": "87dd47410afc2ece6ffaf61322c44f15"
   },
   {
-    "url": "assets/css/0.styles.293e4c7b.css",
-    "revision": "945371b9804c9c3bb66528d665547abd"
+    "url": "assets/css/0.styles.75b7cc77.css",
+    "revision": "d2b988338b04e1eb6a574f3cd6d9622a"
   },
   {
     "url": "assets/img/search.83621669.svg",
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/2.80e9b5e1.js",
-    "revision": "d655b195e51f948f9a85740719553f74"
+    "url": "assets/js/2.c8dfb3e6.js",
+    "revision": "bb09f2271c08451ff10a176821b08e39"
   },
   {
-    "url": "assets/js/3.902c001d.js",
-    "revision": "319688e38de1d70f9c795216ba46ac92"
+    "url": "assets/js/3.e43a6e3d.js",
+    "revision": "11e6cc8578be989f8f4c49e6726a1622"
   },
   {
-    "url": "assets/js/4.1a52cecb.js",
-    "revision": "51fb5aa6c8eb27fd2399f414e72d5277"
+    "url": "assets/js/4.7ce3458c.js",
+    "revision": "3af12bed93de16e40a289ca16e0ddad3"
   },
   {
-    "url": "assets/js/5.c13b874c.js",
-    "revision": "831778299f9cc4a8f3d5d1fe8ee30ed8"
+    "url": "assets/js/5.13711e2a.js",
+    "revision": "fc0196b7ba4371d42e05cb2e87991289"
   },
   {
-    "url": "assets/js/6.9a9b66ea.js",
-    "revision": "fbd3d6efcb56d25561c1a72548221daf"
+    "url": "assets/js/6.d01740d8.js",
+    "revision": "b8c4f6b25ab23ef9072ecbd0f7ad7a7a"
   },
   {
-    "url": "assets/js/7.b3fe5548.js",
-    "revision": "24f8e495c22d39b5b6b0cba8b8d9b634"
+    "url": "assets/js/7.c0bbbf59.js",
+    "revision": "376fb19aa52b1b9372a9f0531808bdd1"
   },
   {
-    "url": "assets/js/8.bda4a42c.js",
-    "revision": "b5e99e94c62c886d65d2b3fd9a2c3fea"
+    "url": "assets/js/8.f151c506.js",
+    "revision": "14f23a9463bff91886bdab4d32c4ca14"
   },
   {
-    "url": "assets/js/app.0d2bd016.js",
-    "revision": "c845a591ad8f8c6a9375821474bdaf26"
+    "url": "assets/js/app.9d673859.js",
+    "revision": "0ae76d35342e935fab05c7ee2bfc03e2"
   },
   {
     "url": "de/index.html",
-    "revision": "5521f6d7af68390bf0308ff8edcdd680"
+    "revision": "1f388399fc1972eb1dc7ffc3e398ac83"
   },
   {
     "url": "index.html",
-    "revision": "d8b8c5170f5638908bd0190653c35b30"
+    "revision": "f4ffd3d36fecf6ca5970b09ea34373a7"
   }
 ].concat(self.__precacheManifest || []);
-workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 addEventListener('message', event => {
   const replyPort = event.ports[0]
