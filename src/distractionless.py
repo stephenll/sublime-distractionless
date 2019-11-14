@@ -15,14 +15,14 @@ def load_settings(reload=False):
 
     try:
         global DL_PREF
-        DL_PREF = sublime.load_settings('{}.sublime-settings'.format(PKG_NAME))
+        DL_PREF = sublime.load_settings(f'{PKG_NAME}.sublime-settings')
         DL_PREF.clear_on_change('reload')
         DL_PREF.add_on_change('reload', lambda: load_settings(reload=True))
     except Exception as e:
         print(e)
 
     if reload:
-        sublime.status_message('{}: {}'.format(PKG_NAME, 'Reloaded settings on change.'))
+        sublime.status_message(f'{PKG_NAME}: Reloaded settings on change'.)
 
 
 def plugin_loaded():
@@ -33,12 +33,14 @@ def plugin_loaded():
     load_settings(reload=False)
 
 
+# TODO: add type hints
 def reset_counter(id):
 
     global counters
     counters[id] = 0
 
 
+# TODO: add type hints
 def increment_counter(id):
 
     global counters
@@ -87,17 +89,10 @@ class DistractionlessListener(sublime_plugin.EventListener):
             reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'scroll_past_end', True)
             reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'word_wrap', 'auto')
             reset_view_setting(V_PREF, SYNTAX_PREF, PREF, 'wrap_width', 0)
-        if DL_PREF.get('distractionless.toggle_menu', True):
-            if sublime.platform() in ['linux', 'windows']:
-                w.set_menu_visible(True)
         if DL_PREF.get('distractionless.toggle_sidebar', True):
             w.set_sidebar_visible(True)
-        if DL_PREF.get('distractionless.toggle_tabs', True):
-            w.set_tabs_visible(True)
         if DL_PREF.get('distractionless.toggle_minimap', True):
             w.set_minimap_visible(True)
-        if DL_PREF.get('distractionless.toggle_status_bar', False):
-            w.set_status_bar_visible(True)
 
     def on_modified_async(self, view):
         if view.settings().get('is_widget', False):
@@ -106,7 +101,7 @@ class DistractionlessListener(sublime_plugin.EventListener):
         if w is None:
             w = sublime.active_window()
         count = increment_counter(w.id())
-        if count is not DL_PREF.get('distractionless.toggle_after', 10):
+        if count is not DL_PREF.get('distractionless.toggle_after', 1):
             return
         # Preferences > Settings - Distraction Free
         DF_PREF = sublime.load_settings('Distraction Free.sublime-settings')
@@ -124,17 +119,10 @@ class DistractionlessListener(sublime_plugin.EventListener):
             set_view_setting(V_PREF, DF_PREF, 'scroll_past_end', True)
             set_view_setting(V_PREF, DF_PREF, 'word_wrap', True)
             set_view_setting(V_PREF, DF_PREF, 'wrap_width', 80)
-        if DL_PREF.get('distractionless.toggle_menu', True):
-            if sublime.platform() in ['linux', 'windows']:
-                w.set_menu_visible(False)
         if DL_PREF.get('distractionless.toggle_sidebar', True):
             w.set_sidebar_visible(False)
-        if DL_PREF.get('distractionless.toggle_tabs', True):
-            w.set_tabs_visible(False)
         if DL_PREF.get('distractionless.toggle_minimap', True):
             w.set_minimap_visible(False)
-        if DL_PREF.get('distractionless.toggle_status_bar', False):
-            w.set_status_bar_visible(False)
 
     def on_activated_async(self, view):
         self._revert_to_normal_and_reset_count(view)

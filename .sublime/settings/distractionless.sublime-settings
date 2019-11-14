@@ -1,19 +1,10 @@
 {
 //  number of changes after which UI is toggled automatically
-    "distractionless.toggle_after": 10,
-
-//  toggle menu when switching modes (ignored on macOS)
-    "distractionless.toggle_menu": true,
+    "distractionless.toggle_after": 1,
 
 //  toggle minimap when switching modes
     "distractionless.toggle_minimap": true,
 
 //  toggle sidebar when switching modes
-    "distractionless.toggle_sidebar": true,
-
-//  toggle status_bar when switching modes
-    "distractionless.toggle_status_bar": false,
-
-//  toggle tabs when switching modes
-    "distractionless.toggle_tabs": true
+    "distractionless.toggle_sidebar": true
 }

@@ -17,7 +17,7 @@
                                 "args":
                                 {
                                     "base_file": "${packages}/distractionless/.sublime/settings/distractionless.sublime-settings",
-                                    "default": "{\n\t\"distractionless.toggle_after\": ${1:10}\n}\n"
+                                    "default": "{\n\t\"distractionless.toggle_after\": ${1:1}\n}\n"
                                 }
                             },
                             { "caption": "-" },

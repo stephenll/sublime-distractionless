@@ -8,6 +8,4 @@ from .distractionless import *
 
 
 def plugin_loaded():
-    VERSION = int(sublime.version())
-    if 3189 <= VERSION:
-        distractionless.plugin_loaded()
+    distractionless.plugin_loaded()
