@@ -1,17 +1,17 @@
 ---
-footer: ISC Licensed | Copyright © 2017 Johannes Rappen
+footer: ISC Licensed | Copyright © 2017-2019 Johannes Rappen
 ---
 
 <div id="readme"></div>
 
 [![License](https://img.shields.io/github/license/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/blob/master/LICENSE)
-[![Sublime Text minimum required version](https://img.shields.io/badge/Sublime%20Text-Build%203124+-orange.svg?style=flat-square)](https://www.sublimetext.com)
+[![Sublime Text minimum required version](https://img.shields.io/badge/Sublime%20Text-Build%204050+-orange.svg?style=flat-square)](https://www.sublimetext.com)
 [![Downloads Package Control](https://img.shields.io/packagecontrol/dt/distractionless.svg?style=flat-square)](https://packagecontrol.io/packages/distractionless)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/commits/master)
 [![Latest tag](https://img.shields.io/github/tag/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/tags)
 [![Donate via PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)
 
-# distractionless plug-in for [Sublime Text 3](https://www.sublimetext.com/3)
+# distractionless plug-in for [Sublime Text](https://www.sublimetext.com)
 
 ![Screencast](./.vuepress/images/screencast.gif)
 
@@ -19,10 +19,11 @@ footer: ISC Licensed | Copyright © 2017 Johannes Rappen
 
 ## Requirements
 
-distractionless targets and is tested against the **latest Build** of Sublime Text, currently requiring `Build 3124` or later.
+distractionless targets and is tested against the **latest Build** of Sublime Text, currently requiring `Build 4050` or later.
 
-* [ST3 (stable)](https://www.sublimetext.com/3)
-* [ST3 (dev)](https://www.sublimetext.com/3dev)
+* Download [Sublime Text](https://www.sublimetext.com)
+  * (stable channel)
+  * (dev channel)
 
 ## Installation
 

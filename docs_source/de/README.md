@@ -1,17 +1,17 @@
 ---
-footer: ISC Licensed | Copyright © 2017 Johannes Rappen
+footer: ISC Lizensiert | Copyright © 2017-2019 Johannes Rappen
 ---
 
 <div id="readme"></div>
 
 [![Lizenz](https://img.shields.io/github/license/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/blob/master/LICENSE)
-[![Sublime Text unterstützte Versionen](https://img.shields.io/badge/Sublime%20Text-Build%203124+-orange.svg?style=flat-square)](https://www.sublimetext.com)
+[![Sublime Text unterstützte Versionen](https://img.shields.io/badge/Sublime%20Text-Build%204050+-orange.svg?style=flat-square)](https://www.sublimetext.com)
 [![Downloads Package Control](https://img.shields.io/packagecontrol/dt/distractionless.svg?style=flat-square)](https://packagecontrol.io/packages/distractionless)
 [![GitHub letzter commit](https://img.shields.io/github/last-commit/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/commits/master)
 [![Aktueller Tag](https://img.shields.io/github/tag/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/tags)
 [![Spende über PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)
 
-# distractionless Erweiterung für [Sublime Text 3](https://www.sublimetext.com/3)
+# distractionless Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
 ![Bildschirmvideo](../.vuepress/images/screencast.gif)
 
@@ -19,14 +19,15 @@ footer: ISC Licensed | Copyright © 2017 Johannes Rappen
 
 ## Voraussetzungen
 
-distractionless ist als Erweiterung für die **neuste** Sublime Text Version gedacht und erfordert im Moment **Build 3124** oder neuer.
+distractionless ist als Erweiterung für die **neuste** Sublime Text Version gedacht und erfordert im Moment **Build 4050** oder neuer.
 
-* [ST3 (stable)](https://www.sublimetext.com/3)
-* [ST3 (dev)](https://www.sublimetext.com/3dev)
+* Lade [Sublime Text](https://www.sublimetext.com) herunter
+  * (stable channel)
+  * (dev channel)
 
 ## Installation
 
-Die Verwendung von **Package Control** ist nicht zwingend vorausgesetzt, aber durchaus empfohlen, da es deine Erweiterungen (mit ihren Abhängigkeiten) aktuell hält.
+Die Verwendung von **Package Control** wird nicht zwingend vorausgesetzt, aber durchaus empfohlen, da es deine Erweiterungen (mit ihren Abhängigkeiten) aktuell hält.
 
 ### Installation über Package Control
 

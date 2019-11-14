@@ -36,13 +36,13 @@ Description ...
 ```text
 distractionless:
 
-    version: ?
+    version: 2.0.0
     installed via Package Control: True
 
 Sublime Text:
 
     channel: stable
-    version: Build 3207 (portable)
+    version: Build 4050 (portable)
     platform: Windows
     architecture: x64
 ```
