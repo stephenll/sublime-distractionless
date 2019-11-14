@@ -7,10 +7,11 @@ Thumbs.db
 
 [Dd]esktop.ini
 
-# Node.js
+# Node, Yarn
 
 node_modules/
 package-lock.json
+yarn.lock
 
 # Vuepress
 
