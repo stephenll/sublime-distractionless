@@ -3,6 +3,7 @@
 
 .github/                    export-ignore
 docs/                       export-ignore
+docs_source/                export-ignore
 
 .gitattributes              export-ignore
 .gitignore                  export-ignore
