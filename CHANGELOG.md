@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/jrappen/sublime-distractionless/compare/2.0.0...2.0.1) (2019-11-22)
+
+
+### Bug Fixes
+
+* **core:** Fix typo ([ecd9876](https://github.com/jrappen/sublime-distractionless/commit/ecd9876014c8c178d9bcc16dd36918352b25f186))
+
+
+
 # [2.0.0](https://github.com/jrappen/sublime-distractionless/compare/1.4.15...2.0.0) (2019-11-14)
 
 
