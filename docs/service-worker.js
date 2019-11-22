@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "87dd47410afc2ece6ffaf61322c44f15"
+    "revision": "77bc2ec8ef11fb9c4b7e1df680ee78c2"
   },
   {
     "url": "assets/css/0.styles.75b7cc77.css",
@@ -50,12 +50,12 @@ self.__precacheManifest = [
     "revision": "3af12bed93de16e40a289ca16e0ddad3"
   },
   {
-    "url": "assets/js/5.13711e2a.js",
-    "revision": "fc0196b7ba4371d42e05cb2e87991289"
+    "url": "assets/js/5.7d7a0048.js",
+    "revision": "5eb76926ba90a62405974bfb4513b1d0"
   },
   {
-    "url": "assets/js/6.d01740d8.js",
-    "revision": "b8c4f6b25ab23ef9072ecbd0f7ad7a7a"
+    "url": "assets/js/6.cf36cc88.js",
+    "revision": "a471e9331a032cdbce0c85c5b42743d8"
   },
   {
     "url": "assets/js/7.c0bbbf59.js",
@@ -66,16 +66,16 @@ self.__precacheManifest = [
     "revision": "14f23a9463bff91886bdab4d32c4ca14"
   },
   {
-    "url": "assets/js/app.9d673859.js",
-    "revision": "0ae76d35342e935fab05c7ee2bfc03e2"
+    "url": "assets/js/app.5c841394.js",
+    "revision": "4c69ba842d86e1fa82e268c604941abf"
   },
   {
     "url": "de/index.html",
-    "revision": "1f388399fc1972eb1dc7ffc3e398ac83"
+    "revision": "4987680739e2c10d173be60844cf9d74"
   },
   {
     "url": "index.html",
-    "revision": "f4ffd3d36fecf6ca5970b09ea34373a7"
+    "revision": "45e7bfea964fa3308b334fdc208e536a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
