@@ -22,7 +22,7 @@ def load_settings(reload=False):
         print(e)
 
     if reload:
-        sublime.status_message(f'{PKG_NAME}: Reloaded settings on change'.)
+        sublime.status_message(f'{PKG_NAME}: Reloaded settings on change')
 
 
 def plugin_loaded():
