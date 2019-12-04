@@ -1,3 +1,20 @@
+# [2.1.0](https://github.com/jrappen/sublime-distractionless/compare/2.0.1...2.1.0) (2019-12-04)
+
+
+### Bug Fixes
+
+* **crowbook:** Add verbose flag ([b3d3785](https://github.com/jrappen/sublime-distractionless/commit/b3d378542e9d7c9e4ecb2cc4a236e806fc7839e2))
+* **crowbook:** Fix crowbook build ([07c87f5](https://github.com/jrappen/sublime-distractionless/commit/07c87f5652f2e0b1733a3139dfe42ffa2e4d5b9d))
+* **crowbook:** Remove animated img from pdf output ([e8ae3d4](https://github.com/jrappen/sublime-distractionless/commit/e8ae3d4787bcf435ce8e603a7c1a5247f78b10e1))
+* **npm-release:** Fix release script ([a78c132](https://github.com/jrappen/sublime-distractionless/commit/a78c1326548df23b33d329089b6cb8fb83e40e56))
+
+
+### Features
+
+* **docs:** Ship local docs in PDF form to users ([949ec6e](https://github.com/jrappen/sublime-distractionless/commit/949ec6e8048de9b719bfb7c0e5f0914048da3887))
+
+
+
 ## [2.0.1](https://github.com/jrappen/sublime-distractionless/compare/2.0.0...2.0.1) (2019-11-22)
 
 ### Bug Fixes
