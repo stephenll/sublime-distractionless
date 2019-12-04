@@ -1,9 +1,5 @@
 # distractionless plug-in for [Sublime Text](https://www.sublimetext.com)
 
-![Screencast](../img/screencast.gif)
-
-> Screencast shows the Adaptive Theme with the Mariana Color Scheme. The font shown is `PragmataPro`.
-
 ## Requirements
 
 distractionless targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4050`** or later.

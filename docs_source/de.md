@@ -1,9 +1,5 @@
 # distractionless Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
-![Bildschirmvideo](../img/screencast.gif)
-
-> Das Bildschirmvideo zeigt Adaptive Theme sowie Mariana Color Scheme. Die verwendete Schriftart ist `PragmataPro`.
-
 ## Voraussetzungen
 
 distractionless ist als Erweiterung für die **neusten Build** von Sublime Text gedacht und erfordert im Moment **`Build 4050`** oder neuer.
