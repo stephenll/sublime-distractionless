@@ -1,3 +1,12 @@
+## [2.1.1](https://github.com/jrappen/sublime-distractionless/compare/2.1.0...2.1.1) (2019-12-04)
+
+
+### Bug Fixes
+
+* **crowbook:** Don't upload unfinished PDF ([1303fe5](https://github.com/jrappen/sublime-distractionless/commit/1303fe5d6fca8df4e7370fc267c32efd3462da7d))
+
+
+
 # [2.1.0](https://github.com/jrappen/sublime-distractionless/compare/2.0.1...2.1.0) (2019-12-04)
 
 
