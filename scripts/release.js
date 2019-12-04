@@ -3,12 +3,16 @@ const fs = require('fs')
 const inquirer = require('inquirer')
 const semver = require('semver')
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
 const release = async() => {
   const curVersion = JSON
     .parse(fs.readFileSync('./package.json', 'utf8'))
     .version
 
-  console.log(`Current version: ${curVersion}`)
+  console.log(`[./scripts/release.js] Current version: ${curVersion}`)
 
   const bumps = ['major', 'minor', 'patch', 'prerelease']
   const versions = {}
@@ -57,6 +61,10 @@ const release = async() => {
   // assuming crowbook (https://github.com/lise-henry/crowbook) and LaTeX are installed
   await execa('crowbook', ['--verbose', '--to', 'pdf', `crowbook.en.yaml`], { stdio: 'inherit' })
   await execa('crowbook', ['--verbose', '--to', 'pdf', `crowbook.de.yaml`], { stdio: 'inherit' })
+
+  // wait to finish building pdf and not commit broken file
+  await sleep(3000)
+
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
   await execa('git', ['commit', '-m', `docs(DOCS): Regenerate docs for ${version}`], { stdio: 'inherit' })
 
@@ -64,7 +72,7 @@ const release = async() => {
   await execa('git', ['tag', '-s', `${version}`, '-m', `${version}`], { stdio: 'inherit' })
   await execa('git', ['push', 'origin', 'master', '--tags'], { stdio: 'inherit' })
 
-  console.log(`Done releasing version: ${version}`)
+  console.log(`[./scripts/release.js] Done releasing version: ${version}`)
 }
 
 release().catch(err => {
