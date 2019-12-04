@@ -1,20 +1,12 @@
----
-footer: ISC Licensed | Copyright © 2017-2019 Johannes Rappen
----
-
-<div id="readme"></div>
-
-[![License](https://img.shields.io/github/license/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/blob/master/LICENSE)[![Required ST Build](https://img.shields.io/badge/ST-Build%204050+-orange.svg?style=flat-square)](https://www.sublimetext.com)[![Downloads Package Control](https://img.shields.io/packagecontrol/dt/distractionless.svg?style=flat-square)](https://packagecontrol.io/packages/distractionless)[![Latest tag](https://img.shields.io/github/tag/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/tags)[![Donate via PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)[![SublimeHQ Discord](https://img.shields.io/discord/280102180189634562?label=SublimeHQ%20Discord&logo=discord&style=flat-square)](https://discord.gg/D43Pecu)
-
 # distractionless plug-in for [Sublime Text](https://www.sublimetext.com)
 
-![Screencast](./.vuepress/images/screencast.gif)
+![Screencast](./img/screencast.gif)
 
 > Screencast shows the Adaptive Theme with the Mariana Color Scheme. The font shown is `PragmataPro`.
 
 ## Requirements
 
-distractionless targets and is tested against the **latest Build** of Sublime Text, currently requiring `Build 4050` or later.
+distractionless targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4050`** or later.
 
 * Download [Sublime Text](https://www.sublimetext.com)
   * (stable channel)
@@ -53,6 +45,21 @@ Use the settings of Sublime Text to customize how views are displayed in each mo
 Use the distractionless settings to customize when and what is toggled:
 
 * `Preferences > Package Settings > distractionless > Settings`
+
+Below the currently supported settings:
+
+```js
+{
+//  number of changes after which UI is toggled automatically
+    "distractionless.toggle_after": 1,
+
+//  toggle minimap when switching modes
+    "distractionless.toggle_minimap": true,
+
+//  toggle sidebar when switching modes
+    "distractionless.toggle_sidebar": true
+}
+```
 
 ## Source Code
 

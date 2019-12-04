@@ -44,7 +44,7 @@ const release = async() => {
     return
   }
 
-  await execa('npm', ['--no-git-tag-version', 'version', version], {})
+  await execa('npm', ['--no-git-tag-version', 'version', version], { stdio: 'inherit' })
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
   await execa('git', ['commit', '-m', `bump: Bump package from ${curVersion} to ${version}`], { stdio: 'inherit' })
 
@@ -53,9 +53,20 @@ const release = async() => {
 
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
   await execa('git', ['commit', '-m', `docs(CHANGELOG): Update CHANGELOG to ${version}`], { stdio: 'inherit' })
+
+  // assuming crowbook (https://github.com/lise-henry/crowbook) and LaTeX are installed
+  await execa('cd', ['docs_source'], { stdio: 'inherit' })
+  await execa('crowbook', ['--to', 'pdf', `en.crowbook.yaml`], { stdio: 'inherit' })
+  await execa('crowbook', ['--to', 'pdf', `de.crowbook.yaml`], { stdio: 'inherit' })
+  await execa('cd', ['..'], { stdio: 'inherit' })
+  await execa('git', ['add', '-A'], { stdio: 'inherit' })
+  await execa('git', ['commit', '-m', `docs(DOCS): Regenerate docs for ${version}`], { stdio: 'inherit' })
+
   await execa('git', ['commit', '--allow-empty', '-S', '-m', `release: ${version}`], { stdio: 'inherit' })
   await execa('git', ['tag', '-s', `${version}`, '-m', `${version}`], { stdio: 'inherit' })
   await execa('git', ['push', 'origin', 'master', '--tags'], { stdio: 'inherit' })
+
+  console.log(`Done releasing version: ${version}`)
 }
 
 release().catch(err => {

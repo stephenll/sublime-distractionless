@@ -5,6 +5,7 @@
 import sublime
 
 from .distractionless import *
+from .window_commands import *
 
 
 def plugin_loaded():

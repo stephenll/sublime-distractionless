@@ -1,20 +1,12 @@
----
-footer: ISC Lizensiert | Copyright © 2017-2019 Johannes Rappen
----
-
-<div id="readme"></div>
-
-[![Lizenz](https://img.shields.io/github/license/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/blob/master/LICENSE)[![Unterstützte ST Builds](https://img.shields.io/badge/ST-Build%204050+-orange.svg?style=flat-square)](https://www.sublimetext.com)[![Downloads Package Control](https://img.shields.io/packagecontrol/dt/distractionless.svg?style=flat-square)](https://packagecontrol.io/packages/distractionless)[![Aktueller tag](https://img.shields.io/github/tag/jrappen/sublime-distractionless.svg?style=flat-square)](https://github.com/jrappen/sublime-distractionless/tags)[![Spende über PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)[![SublimeHQ Discord](https://img.shields.io/discord/280102180189634562?label=SublimeHQ%20Discord&logo=discord&style=flat-square)](https://discord.gg/D43Pecu)
-
 # distractionless Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
-![Bildschirmvideo](../.vuepress/images/screencast.gif)
+![Bildschirmvideo](./img/screencast.gif)
 
 > Das Bildschirmvideo zeigt Adaptive Theme sowie Mariana Color Scheme. Die verwendete Schriftart ist `PragmataPro`.
 
 ## Voraussetzungen
 
-distractionless ist als Erweiterung für die **neuste** Sublime Text Version gedacht und erfordert im Moment **Build 4050** oder neuer.
+distractionless ist als Erweiterung für die **neusten Build** von Sublime Text gedacht und erfordert im Moment **`Build 4050`** oder neuer.
 
 * Lade [Sublime Text](https://www.sublimetext.com) herunter
   * (stable channel)
@@ -53,6 +45,21 @@ Verwende die Einstellungen von Sublime Text um anzupassen, wie Ansichten in jede
 Verwende die distractionless Einstellungen um anzupassen, wann und was beim Umschalten zwischen den Modi passiert:
 
 * `Preferences > Package Settings > distractionless > Settings`
+
+Hier die möglichen Einstellungen:
+
+```js
+{
+//  Anzahl der Änderungen, nach denen die Oberfläche automatisch gewechselt wird
+    "distractionless.toggle_after": 1,
+
+//  wechsle die Anzeige der minimap beim Wechseln der Anzeige-Modi
+    "distractionless.toggle_minimap": true,
+
+//  wechsle die Anzeige der sidebar beim Wechseln der Anzeige-Modi
+    "distractionless.toggle_sidebar": true
+}
+```
 
 ## Quellcode
 

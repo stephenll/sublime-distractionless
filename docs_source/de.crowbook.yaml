@@ -1,0 +1,48 @@
+# Metadata
+author: "Johannes Rappen"
+title: distractionless Dokumentation
+description: >-
+  Dokumentation für das distractionless Plugin für Sublime Text 4.
+lang: de
+cover: cover.png
+version: 0.20191204.0421
+date: 2019-12-04
+license: >-
+  ISC License
+
+  Copyright (c) 2019, Johannes Rappen <mailto:jrappen@outlook.com>
+
+  Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted, provided that the above
+  copyright notice and this permission notice appear in all copies.
+
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+output:
+  - pdf
+output.pdf: distractionless.de.pdf
+output.base_path: ../docs/
+
+resources.base_path.images: img/
+
+crowbook.markdown.superscript: true
+
+rendering.num_depth: 2
+rendering.initials: false
+rendering.inline_toc: false
+rendering.chapter.template: "{{{number}}}. {{{chapter_title}}}"
+rendering.chapter.roman_numerals: false
+rendering.part.reset_counter: true
+rendering.highlight: syntect
+
+tex.class: book
+tex.links_as_footnotes: true
+tex.paper.size: a4paper
+tex.highlight.theme: Solarized (dark)
+
++ de.md

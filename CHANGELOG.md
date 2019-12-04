@@ -1,26 +1,19 @@
 ## [2.0.1](https://github.com/jrappen/sublime-distractionless/compare/2.0.0...2.0.1) (2019-11-22)
 
-
 ### Bug Fixes
 
 * **core:** Fix typo ([ecd9876](https://github.com/jrappen/sublime-distractionless/commit/ecd9876014c8c178d9bcc16dd36918352b25f186))
 
-
-
 # [2.0.0](https://github.com/jrappen/sublime-distractionless/compare/1.4.15...2.0.0) (2019-11-14)
-
 
 ### Features
 
 * **core:** Update for ST4 ([106cc0a](https://github.com/jrappen/sublime-distractionless/commit/106cc0aeb37b7b560e531c05d4142cbe7d507f65))
 * **editorconfig:** Add editorconfig for contributors ([eeee351](https://github.com/jrappen/sublime-distractionless/commit/eeee3512db3ef5c9527a4421285f887f6472a0b4))
 
-
 ### BREAKING CHANGES
 
 * **core:** Requires Sublime Text Build 4050 or later.
-
-
 
 ## [1.4.15](https://github.com/jrappen/sublime-distractionless/compare/1.4.14...1.4.15) (2019-05-27)
 
