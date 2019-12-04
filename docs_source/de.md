@@ -1,6 +1,6 @@
 # distractionless Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
-![Bildschirmvideo](./img/screencast.gif)
+![Bildschirmvideo](../img/screencast.gif)
 
 > Das Bildschirmvideo zeigt Adaptive Theme sowie Mariana Color Scheme. Die verwendete Schriftart ist `PragmataPro`.
 

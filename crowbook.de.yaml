@@ -1,9 +1,9 @@
 # Metadata
 author: "Johannes Rappen"
-title: distractionless Documentation
+title: distractionless Dokumentation
 description: >-
-  Documentation for the distractionless Plugin for Sublime Text 4.
-lang: en
+  Dokumentation für das distractionless Plugin für Sublime Text 4.
+lang: de
 cover: cover.png
 version: 0.20191204.0421
 date: 2019-12-04
@@ -25,8 +25,8 @@ license: >-
   OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 output:
   - pdf
-output.pdf: distractionless.en.pdf
-output.base_path: ../docs/
+output.pdf: distractionless.de.pdf
+output.base_path: docs/
 
 resources.base_path.images: img/
 
@@ -45,4 +45,4 @@ tex.links_as_footnotes: true
 tex.paper.size: a4paper
 tex.highlight.theme: Solarized (dark)
 
-+ en.md
++ docs_source/de.md
