@@ -1,3 +1,12 @@
+## [2.1.2](https://github.com/jrappen/sublime-distractionless/compare/2.1.1...2.1.2) (2019-12-05)
+
+
+### Bug Fixes
+
+* **npm:** Fix generating docs before release ([52cda50](https://github.com/jrappen/sublime-distractionless/commit/52cda50880dd14067c1810c4389af6a6e6577477))
+
+
+
 ## [2.1.1](https://github.com/jrappen/sublime-distractionless/compare/2.1.0...2.1.1) (2019-12-04)
 
 
