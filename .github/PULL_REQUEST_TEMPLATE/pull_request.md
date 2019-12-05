@@ -11,4 +11,4 @@ body
 
 footer
 
-<!-- commit guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md -->
+<!-- commit guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit -->

@@ -34,22 +34,20 @@ Description ...
 ### Environment
 
 ```text
-distractionless:
-
-    version: 2.0.0
-    installed via Package Control: True
-
 Sublime Text:
-
   build: 4058
   channel: dev
-    portable: false
+      portable: false
   platform: osx x64
-    version: macOS Catalina 10.15.1 (19B88)
+      version: macOS Catalina 10.15.1 (19B88)
   hardware: MBP 15" 2018, i9 2.9GHz, 32GB, 1TB, Radeon Pro 560X
   open_gl:
-    GL API Version: 4.1 INTEL-14.2.16
-    GLSL Version: 4.10
-    Vendor: Intel Inc.
-    Renderer: Intel(R) UHD Graphics 630
+      GL API Version: 4.1 INTEL-14.2.16
+      GLSL Version: 4.10
+      Vendor: Intel Inc.
+      Renderer: Intel(R) UHD Graphics 630
+
+Package Control:
+    - Package Control: 3.3.0
+    - distractionless: 2.0.0
 ```
