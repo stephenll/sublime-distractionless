@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/jrappen/sublime-distractionless/compare/2.1.4...2.2.0) (2019-12-05)
+
+
+### Features
+
+* **dependencies:** Remove sublime_lib dependency ([2fb1773](https://github.com/jrappen/sublime-distractionless/commit/2fb17736decf250560034dcf562cc82b302fdd3b))
+
+
+
 ## [2.1.4](https://github.com/jrappen/sublime-distractionless/compare/2.1.3...2.1.4) (2019-12-05)
 
 
