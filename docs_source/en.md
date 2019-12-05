@@ -38,7 +38,17 @@ Use the settings of Sublime Text to customize how views are displayed in each mo
 * `Preferences > Settings - Syntax Specific`
 * `Preferences > Settings - Distraction Free`
 
-Use the distractionless settings to customize when and what is toggled:
+You might want to set the following in `Preferences > Settings`:
+
+```js
+{
+    "auto_hide_menu": true,
+    "auto_hide_status_bar": true,
+    "auto_hide_tabs": true
+}
+```
+
+Use the distractionless settings to further customize when and what is toggled:
 
 * `Preferences > Package Settings > distractionless > Settings`
 

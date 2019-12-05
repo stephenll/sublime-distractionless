@@ -38,7 +38,17 @@ Verwende die Einstellungen von Sublime Text um anzupassen, wie Ansichten in jede
 * `Preferences > Settings - Syntax Specific`
 * `Preferences > Settings - Distraction Free`
 
-Verwende die distractionless Einstellungen um anzupassen, wann und was beim Umschalten zwischen den Modi passiert:
+Passe folgende Einstellungen in `Preferences > Settings` an:
+
+```js
+{
+    "auto_hide_menu": true,
+    "auto_hide_status_bar": true,
+    "auto_hide_tabs": true
+}
+```
+
+Verwende die distractionless Einstellungen um weiter anzupassen, wann und was beim Umschalten zwischen den Modi passiert:
 
 * `Preferences > Package Settings > distractionless > Settings`
 
