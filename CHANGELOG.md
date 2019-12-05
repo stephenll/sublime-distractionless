@@ -1,3 +1,7 @@
+## [2.1.4](https://github.com/jrappen/sublime-distractionless/compare/2.1.3...2.1.4) (2019-12-05)
+
+
+
 ## [2.1.3](https://github.com/jrappen/sublime-distractionless/compare/2.1.2...2.1.3) (2019-12-05)
 
 ### Bug Fixes
