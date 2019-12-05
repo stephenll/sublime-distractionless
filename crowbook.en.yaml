@@ -4,12 +4,12 @@ title: distractionless Documentation
 description: >-
   Documentation for the distractionless Plugin for Sublime Text 4.
 lang: en
-version: 2.1.1
+version: 2.1.2
 date: 2019-12-04
 license: >-
   ISC License
 
-  Copyright (c) 2019, Johannes Rappen <mailto:jrappen@outlook.com>
+  Copyright (c) 2019, Johannes Rappen <jrappen@outlook.com>
 
   Permission to use, copy, modify, and/or distribute this software for any
   purpose with or without fee is hereby granted, provided that the above
