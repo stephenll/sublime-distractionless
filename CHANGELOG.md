@@ -1,3 +1,7 @@
+## [2.2.1](https://github.com/jrappen/sublime-distractionless/compare/2.2.0...2.2.1) (2019-12-05)
+
+
+
 # [2.2.0](https://github.com/jrappen/sublime-distractionless/compare/2.1.4...2.2.0) (2019-12-05)
 
 
