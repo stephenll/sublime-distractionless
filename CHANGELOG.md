@@ -1,3 +1,12 @@
+## [2.1.3](https://github.com/jrappen/sublime-distractionless/compare/2.1.2...2.1.3) (2019-12-05)
+
+
+### Bug Fixes
+
+* **git:** Fix gitattributes for PDF files ([58760be](https://github.com/jrappen/sublime-distractionless/commit/58760be52d74e353b5a9ba7edfd07b2526dde480))
+
+
+
 ## [2.1.2](https://github.com/jrappen/sublime-distractionless/compare/2.1.1...2.1.2) (2019-12-05)
 
 
