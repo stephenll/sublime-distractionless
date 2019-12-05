@@ -1,3 +1,14 @@
+## [2.2.2](https://github.com/jrappen/sublime-distractionless/compare/2.2.1...2.2.2) (2019-12-05)
+
+
+### Bug Fixes
+
+* **github:** Update templates for GitHub ([c55b472](https://github.com/jrappen/sublime-distractionless/commit/c55b47223d0e11cc4da3f0d53b89602a339a619d))
+* **node:** Remove unused devDependencies ([a2149a5](https://github.com/jrappen/sublime-distractionless/commit/a2149a5594716d401e978f15239b5fc5d5aa4265))
+* **python:** Fix file path using os.path.join ([46ada78](https://github.com/jrappen/sublime-distractionless/commit/46ada788954617544d5b2eb1fa9d3bdc7ddb30a5))
+
+
+
 ## [2.2.1](https://github.com/jrappen/sublime-distractionless/compare/2.2.0...2.2.1) (2019-12-05)
 
 
