@@ -1,5 +1,6 @@
 *                   text    eol=lf
 *.gif               binary
+*.pdf               binary
 
 .github/                    export-ignore
 docs_source/                export-ignore
