@@ -2,14 +2,16 @@
 
 # distractionless plug-in for [Sublime Text](https://www.sublimetext.com)
 
+![Screencast](./img/screencast.gif)
+
+> Screencast shows the Adaptive Theme with the Mariana Color Scheme. The font shown is `PragmataPro`.
+
+## Documentation
+
 | Languages        | i18n Information                                                                                     |
 |------------------|------------------------------------------------------------------------------------------------------|
 | English          | Plugin documentation is available in English via the menu or command palette.                        |
 | German (Deutsch) | Eine plug-in Dokumentation ist über das Menü oder die Kurzbefehleingabe (command palette) verfügbar. |
-
-![Screencast](./img/screencast.gif)
-
-> Screencast shows the Adaptive Theme with the Mariana Color Scheme. The font shown is `PragmataPro`.
 
 ## Requirements
 
