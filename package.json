@@ -16,8 +16,7 @@
         "url": "git+https://github.com/jrappen/sublime-distractionless.git"
     },
     "scripts": {
-        "docs:build": "node scripts/makedocs.js",
-        "release": "node scripts/makedocs.js && node scripts/release.js"
+        "release": "node scripts/release.js"
     },
     "engines": {
         "node": ">= 12.12.0",

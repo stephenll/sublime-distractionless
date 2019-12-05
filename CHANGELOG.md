@@ -1,32 +1,22 @@
 ## [2.1.3](https://github.com/jrappen/sublime-distractionless/compare/2.1.2...2.1.3) (2019-12-05)
 
-
 ### Bug Fixes
 
 * **git:** Fix gitattributes for PDF files ([58760be](https://github.com/jrappen/sublime-distractionless/commit/58760be52d74e353b5a9ba7edfd07b2526dde480))
 
-
-
 ## [2.1.2](https://github.com/jrappen/sublime-distractionless/compare/2.1.1...2.1.2) (2019-12-05)
-
 
 ### Bug Fixes
 
 * **npm:** Fix generating docs before release ([52cda50](https://github.com/jrappen/sublime-distractionless/commit/52cda50880dd14067c1810c4389af6a6e6577477))
 
-
-
 ## [2.1.1](https://github.com/jrappen/sublime-distractionless/compare/2.1.0...2.1.1) (2019-12-04)
-
 
 ### Bug Fixes
 
 * **crowbook:** Don't upload unfinished PDF ([1303fe5](https://github.com/jrappen/sublime-distractionless/commit/1303fe5d6fca8df4e7370fc267c32efd3462da7d))
 
-
-
 # [2.1.0](https://github.com/jrappen/sublime-distractionless/compare/2.0.1...2.1.0) (2019-12-04)
-
 
 ### Bug Fixes
 
@@ -35,12 +25,9 @@
 * **crowbook:** Remove animated img from pdf output ([e8ae3d4](https://github.com/jrappen/sublime-distractionless/commit/e8ae3d4787bcf435ce8e603a7c1a5247f78b10e1))
 * **npm-release:** Fix release script ([a78c132](https://github.com/jrappen/sublime-distractionless/commit/a78c1326548df23b33d329089b6cb8fb83e40e56))
 
-
 ### Features
 
 * **docs:** Ship local docs in PDF form to users ([949ec6e](https://github.com/jrappen/sublime-distractionless/commit/949ec6e8048de9b719bfb7c0e5f0914048da3887))
-
-
 
 ## [2.0.1](https://github.com/jrappen/sublime-distractionless/compare/2.0.0...2.0.1) (2019-11-22)
 
