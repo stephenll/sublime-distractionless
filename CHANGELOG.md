@@ -1,3 +1,17 @@
+# [2.3.0](https://github.com/jrappen/sublime-distractionless/compare/2.2.2...2.3.0) (2020-02-06)
+
+
+### Bug Fixes
+
+* **docs:** Remove empty lines in changelog ([3f23644](https://github.com/jrappen/sublime-distractionless/commit/3f236447d6b0045cb8d6c5360c03e462ca3e73d0))
+
+
+### Features
+
+* Show docs via html sheet (ST4065+) ([360d161](https://github.com/jrappen/sublime-distractionless/commit/360d161883fe5843c993e2bb0565fb3b870f01a4))
+
+
+
 ## [2.2.2](https://github.com/jrappen/sublime-distractionless/compare/2.2.1...2.2.2) (2019-12-05)
 
 ### Bug Fixes
