@@ -19,8 +19,8 @@
         "release": "node scripts/release.js"
     },
     "engines": {
-        "node": ">= 13.6.0",
-        "npm": ">= 6.13.6"
+        "node": ">= 13.7.0",
+        "npm": ">= 6.13.7"
     },
     "devDependencies": {
         "execa": "^4.0.0",
