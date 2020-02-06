@@ -17,13 +17,13 @@
 
 > Plugin documentation is available in English via the menu or command palette.
 
-[`jrappen/sublime-distractionless:docs/distractionless.en.pdf@master`](https://github.com/jrappen/sublime-distractionless/blob/master/docs/distractionless.en.pdf)
+[`jrappen/sublime-distractionless:docs/README.en.md@master`](https://github.com/jrappen/sublime-distractionless/blob/master/docs/README.en.md)
 
 ### German (Deutsch) 🇩🇪🇦🇹🇨🇭
 
 > Eine plug-in Dokumentation ist über das Menü oder die Kurzbefehleingabe (command palette) verfügbar.
 
-[`jrappen/sublime-distractionless:docs/distractionless.de.pdf@master`](https://github.com/jrappen/sublime-distractionless/blob/master/docs/distractionless.de.pdf)
+[`jrappen/sublime-distractionless:docs/README.de.md@master`](https://github.com/jrappen/sublime-distractionless/blob/master/docs/README.de.md)
 
 ## Requirements
 
