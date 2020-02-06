@@ -1,3 +1,13 @@
+## [2.3.2](https://github.com/jrappen/sublime-distractionless/compare/2.3.1...2.3.2) (2020-02-06)
+
+
+### Bug Fixes
+
+* **docs:** Remove empty lines in CHANGELOG ([369e1f0](https://github.com/jrappen/sublime-distractionless/commit/369e1f0d466987fd22466b809d1f0da6f43e0f5a))
+* **docs:** Update requirements ([06e93ce](https://github.com/jrappen/sublime-distractionless/commit/06e93ce9c65a45d7b0f116731b8e84a58582d7e7))
+
+
+
 ## [2.3.1](https://github.com/jrappen/sublime-distractionless/compare/2.3.0...2.3.1) (2020-02-06)
 
 ### Bug Fixes
