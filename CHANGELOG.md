@@ -1,3 +1,12 @@
+## [2.3.3](https://github.com/jrappen/sublime-distractionless/compare/2.3.2...2.3.3) (2020-02-06)
+
+
+### Bug Fixes
+
+* **docs:** Update badges for online README ([7ea3cac](https://github.com/jrappen/sublime-distractionless/commit/7ea3cac86a92da62915479e4a44ce02d0b9d86bd))
+
+
+
 ## [2.3.2](https://github.com/jrappen/sublime-distractionless/compare/2.3.1...2.3.2) (2020-02-06)
 
 
