@@ -2,7 +2,7 @@
 
 ## Voraussetzungen
 
-distractionless ist als Erweiterung für die **neusten Build** von Sublime Text gedacht und erfordert im Moment **`Build 4050`** oder neuer.
+distractionless ist als Erweiterung für die **neusten Build** von Sublime Text gedacht und erfordert im Moment **`Build 4065`** oder neuer.
 
 * Lade [Sublime Text](https://www.sublimetext.com) herunter
   * (stable channel)
