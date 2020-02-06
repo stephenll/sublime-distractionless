@@ -1,4 +1,4 @@
-# distractionless Erweiterung für [Sublime Text](https://www.sublimetext.com)
+# distractionless Erweiterung für [`Sublime Text`](https://www.sublimetext.com)
 
 ## Voraussetzungen
 

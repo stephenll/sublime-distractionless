@@ -1,4 +1,4 @@
-# distractionless plug-in for [Sublime Text](https://www.sublimetext.com)
+# distractionless plug-in for [`Sublime Text`](https://www.sublimetext.com)
 
 ## Requirements
 

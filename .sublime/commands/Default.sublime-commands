@@ -1,18 +1,18 @@
 [
     {
         "caption": "distractionless: Documentation: English",
-        "command": "distractionless_open_pdf",
+        "command": "distractionless_open_docs",
         "args":
         {
-            "resource_path": "docs/distractionless.en.pdf"
+            "resource_path": "docs/README.en.md"
         }
     },
     {
         "caption": "distractionless: Documentation: German (Deutsch)",
-        "command": "distractionless_open_pdf",
+        "command": "distractionless_open_docs",
         "args":
         {
-            "resource_path": "docs/distractionless.de.pdf"
+            "resource_path": "docs/README.de.md"
         }
     },
     {

@@ -58,16 +58,6 @@ const release = async() => {
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
   await execa('git', ['commit', '-m', `docs(CHANGELOG): Update CHANGELOG to ${version}`], { stdio: 'inherit' })
 
-  // assuming crowbook (https://github.com/lise-henry/crowbook) and LaTeX are installed
-  await execa('crowbook', ['--verbose', '--to', 'pdf', `crowbook.en.yaml`], { stdio: 'inherit' })
-  await execa('crowbook', ['--verbose', '--to', 'pdf', `crowbook.de.yaml`], { stdio: 'inherit' })
-
-  // wait to finish building pdf and not commit broken file
-  await sleep(1000)
-
-  await execa('git', ['add', '-A'], { stdio: 'inherit' })
-  await execa('git', ['commit', '-m', `docs(DOCS): Update docs to ${version}`], { stdio: 'inherit' })
-
   await execa('git', ['commit', '--allow-empty', '-S', '-m', `release: ${version}`], { stdio: 'inherit' })
   await execa('git', ['tag', '-s', `${version}`, '-m', `${version}`], { stdio: 'inherit' })
   await execa('git', ['push', 'origin', 'master', '--tags'], { stdio: 'inherit' })
