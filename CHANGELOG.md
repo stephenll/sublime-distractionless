@@ -1,3 +1,13 @@
+## [2.3.4](https://github.com/jrappen/sublime-distractionless/compare/2.3.3...2.3.4) (2020-02-06)
+
+
+### Bug Fixes
+
+* **docs:** Update package info in issue template ([42810e5](https://github.com/jrappen/sublime-distractionless/commit/42810e50426cb3072bd30ac4a226b187bf949c21))
+* **node:** Update engines for node usage ([8f603e6](https://github.com/jrappen/sublime-distractionless/commit/8f603e6c94ab6f5b266ff02f6efc2dc278f6041a))
+
+
+
 ## [2.3.3](https://github.com/jrappen/sublime-distractionless/compare/2.3.2...2.3.3) (2020-02-06)
 
 
