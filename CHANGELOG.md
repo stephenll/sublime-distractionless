@@ -1,3 +1,12 @@
+## [2.3.1](https://github.com/jrappen/sublime-distractionless/compare/2.3.0...2.3.1) (2020-02-06)
+
+
+### Bug Fixes
+
+* **docs:** Fix links in README ([2aac90b](https://github.com/jrappen/sublime-distractionless/commit/2aac90bf30b75f5491e0ca605e2765d03773ef6c))
+
+
+
 # [2.3.0](https://github.com/jrappen/sublime-distractionless/compare/2.2.2...2.3.0) (2020-02-06)
 
 
