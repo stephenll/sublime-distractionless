@@ -1,40 +1,28 @@
 ## [2.3.5](https://github.com/jrappen/sublime-distractionless/compare/2.3.4...2.3.5) (2020-02-10)
 
-
 ### Bug Fixes
 
 * **python:** Use window commands not text commands ([57960db](https://github.com/jrappen/sublime-distractionless/commit/57960dbc54059065d6e462bfb310353b3e2b362b))
 
-
-
 ## [2.3.4](https://github.com/jrappen/sublime-distractionless/compare/2.3.3...2.3.4) (2020-02-06)
-
 
 ### Bug Fixes
 
 * **docs:** Update package info in issue template ([42810e5](https://github.com/jrappen/sublime-distractionless/commit/42810e50426cb3072bd30ac4a226b187bf949c21))
 * **node:** Update engines for node usage ([8f603e6](https://github.com/jrappen/sublime-distractionless/commit/8f603e6c94ab6f5b266ff02f6efc2dc278f6041a))
 
-
-
 ## [2.3.3](https://github.com/jrappen/sublime-distractionless/compare/2.3.2...2.3.3) (2020-02-06)
-
 
 ### Bug Fixes
 
 * **docs:** Update badges for online README ([7ea3cac](https://github.com/jrappen/sublime-distractionless/commit/7ea3cac86a92da62915479e4a44ce02d0b9d86bd))
 
-
-
 ## [2.3.2](https://github.com/jrappen/sublime-distractionless/compare/2.3.1...2.3.2) (2020-02-06)
-
 
 ### Bug Fixes
 
 * **docs:** Remove empty lines in CHANGELOG ([369e1f0](https://github.com/jrappen/sublime-distractionless/commit/369e1f0d466987fd22466b809d1f0da6f43e0f5a))
 * **docs:** Update requirements ([06e93ce](https://github.com/jrappen/sublime-distractionless/commit/06e93ce9c65a45d7b0f116731b8e84a58582d7e7))
-
-
 
 ## [2.3.1](https://github.com/jrappen/sublime-distractionless/compare/2.3.0...2.3.1) (2020-02-06)
 
