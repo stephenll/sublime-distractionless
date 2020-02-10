@@ -1,3 +1,12 @@
+## [2.3.5](https://github.com/jrappen/sublime-distractionless/compare/2.3.4...2.3.5) (2020-02-10)
+
+
+### Bug Fixes
+
+* **python:** Use window commands not text commands ([57960db](https://github.com/jrappen/sublime-distractionless/commit/57960dbc54059065d6e462bfb310353b3e2b362b))
+
+
+
 ## [2.3.4](https://github.com/jrappen/sublime-distractionless/compare/2.3.3...2.3.4) (2020-02-06)
 
 
