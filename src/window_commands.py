@@ -9,12 +9,12 @@ import sublime_plugin
 PKG_NAME = __package__.split('.')[0]
 
 
-class DistractionlessOpenDocs(sublime_plugin.TextCommand):
+class DistractionlessOpenDocs(sublime_plugin.WindowCommand):
 
     def run(self, edit, resource_path='docs/README.en.md'):
         try:
-            v = self.view
-            w = v.window()
+            w = self.window
+            v = w.active_view()
             import mdpopups
             md_preview = mdpopups.md2html(
                 view=v,
@@ -33,7 +33,9 @@ class DistractionlessOpenDocs(sublime_plugin.TextCommand):
                 group=-1
             )
         except Exception as e:
-            pass
+            print('distractionless: Exception: ' + e)
+
+    # def is_enabled(self): return bool
 
     def is_visible(self):
         try:
@@ -41,3 +43,6 @@ class DistractionlessOpenDocs(sublime_plugin.TextCommand):
             return True
         except Exception as e:
             return False
+
+    # def description(self): return str
+    # def input(self, args): return CommandInputHandler or None
