@@ -11,7 +11,7 @@ PKG_NAME = __package__.split('.')[0]
 
 class DistractionlessOpenDocs(sublime_plugin.WindowCommand):
 
-    def run(self, edit, resource_path='docs/README.en.md'):
+    def run(self, resource_path='docs/README.en.md'):
         try:
             w = self.window
             v = w.active_view()
@@ -33,7 +33,7 @@ class DistractionlessOpenDocs(sublime_plugin.WindowCommand):
                 group=-1
             )
         except Exception as e:
-            print('distractionless: Exception: ' + e)
+            print(f'distractionless: Exception: {e}')
 
     # def is_enabled(self): return bool
 
