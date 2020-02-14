@@ -1,11 +1,8 @@
 ## [2.3.6](https://github.com/jrappen/sublime-distractionless/compare/2.3.5...2.3.6) (2020-02-11)
 
-
 ### Bug Fixes
 
 * **python:** Fix distractionless_open_docs ([f74b99b](https://github.com/jrappen/sublime-distractionless/commit/f74b99b5c6e168edb1dfcd2bc80c0c46e16ac7e3))
-
-
 
 ## [2.3.5](https://github.com/jrappen/sublime-distractionless/compare/2.3.4...2.3.5) (2020-02-10)
 
