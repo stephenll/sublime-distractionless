@@ -40,7 +40,7 @@ Verwende die Einstellungen von Sublime Text um anzupassen, wie Ansichten in jede
 
 Passe folgende Einstellungen in `Preferences > Settings` an:
 
-```js
+```jsonc
 {
     "auto_hide_menu": true,
     "auto_hide_status_bar": true,
@@ -54,7 +54,7 @@ Verwende die distractionless Einstellungen um weiter anzupassen, wann und was be
 
 Hier die möglichen Einstellungen:
 
-```js
+```jsonc
 {
 //  Anzahl der Änderungen, nach denen die Oberfläche automatisch gewechselt wird
     "distractionless.toggle_after": 1,

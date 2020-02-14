@@ -65,7 +65,7 @@ Use the settings of Sublime Text to customize how views are displayed in each mo
 
 You might want to set the following in `Preferences > Settings`:
 
-```js
+```jsonc
 {
     "auto_hide_menu": true,
     "auto_hide_status_bar": true,
@@ -79,7 +79,7 @@ Use the distractionless settings to further customize when and what is toggled:
 
 Below the currently supported settings:
 
-```js
+```jsonc
 {
 //  number of changes after which UI is toggled automatically
     "distractionless.toggle_after": 1,
