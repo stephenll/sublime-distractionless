@@ -1,3 +1,12 @@
+## [2.3.7](https://github.com/jrappen/sublime-distractionless/compare/2.3.6...2.3.7) (2020-02-14)
+
+
+### Bug Fixes
+
+* **docs:** Use `jsonc` for codeblocks ([a146e4c](https://github.com/jrappen/sublime-distractionless/commit/a146e4c06d0ed7e737207e978a17daf39f83a3ed))
+
+
+
 ## [2.3.6](https://github.com/jrappen/sublime-distractionless/compare/2.3.5...2.3.6) (2020-02-11)
 
 ### Bug Fixes
