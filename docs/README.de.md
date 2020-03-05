@@ -14,7 +14,7 @@ Die Verwendung von **Package Control** wird nicht zwingend vorausgesetzt, aber d
 
 ### Installation über Package Control
 
-* [Installiere Package Control](https://packagecontrol.io/installation#st3)
+* [Installiere Package Control](https://packagecontrol.io/installation)
   * Schließe und öffne Sublime Text nach der Installation von Package Control.
 * Öffne die Befehlseingabe (`Tools > Command Palette`).
 * Wähle `Package Control: Install Package`.
