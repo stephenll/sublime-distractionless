@@ -1,3 +1,12 @@
+## [2.3.8](https://github.com/jrappen/sublime-distractionless/compare/2.3.7...2.3.8) (2020-03-05)
+
+
+### Bug Fixes
+
+* **node:** Bump engines and devDependencies ([1e68376](https://github.com/jrappen/sublime-distractionless/commit/1e68376c2baed325294a37621b2bfa7244a19171))
+
+
+
 ## [2.3.7](https://github.com/jrappen/sublime-distractionless/compare/2.3.0...2.3.7) (2020-02-14)
 
 ### Bug Fixes
