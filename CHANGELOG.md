@@ -1,3 +1,17 @@
+# [2.4.0](https://github.com/jrappen/sublime-distractionless/compare/2.3.8...2.4.0) (2020-03-09)
+
+
+### Bug Fixes
+
+* **docs:** Use 4 spaces indentation for list items ([ae5a512](https://github.com/jrappen/sublime-distractionless/commit/ae5a512cbae1c99212127a0764156ebe6249e665))
+
+
+### Features
+
+* **Package Control:** Add PkgCtrl channel file ([1855bb3](https://github.com/jrappen/sublime-distractionless/commit/1855bb3c99c0e7d3ee474cafa2d8c99c90c587c9))
+
+
+
 ## [2.3.8](https://github.com/jrappen/sublime-distractionless/compare/2.3.7...2.3.8) (2020-03-05)
 
 
