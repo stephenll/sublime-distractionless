@@ -1,11 +1,8 @@
 # [2.5.0](https://github.com/jrappen/sublime-distractionless/compare/2.4.0...2.5.0) (2020-03-09)
 
-
 ### Features
 
 * **Python:** Use Py3.3 until PkgCtrl handles 3.8 ([91195ac](https://github.com/jrappen/sublime-distractionless/commit/91195aca3901261b809597c40f14dad7d7a62a61))
-
-
 
 # [2.4.0](https://github.com/jrappen/sublime-distractionless/compare/2.3.0...2.4.0) (2020-03-09)
 
