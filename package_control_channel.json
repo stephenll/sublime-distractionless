@@ -1,0 +1,25 @@
+{
+	"schema_version": "3.0.0",
+	"packages":
+	[
+		{
+			"name": "distractionless",
+			"author": "Johannes Rappen (jrappen)",
+			"details": "https://github.com/jrappen/sublime-distractionless",
+			"donate": "https://paypal.me/jrappen",
+			"labels":
+			[
+				"automation",
+				"distraction-free",
+				"fullscreen"
+			],
+			"releases":
+			[
+				{
+					"sublime_text": ">=4065",
+					"tags": true
+				}
+			]
+		}
+	]
+}
