@@ -1,30 +1,13 @@
-# [2.4.0](https://github.com/jrappen/sublime-distractionless/compare/2.3.8...2.4.0) (2020-03-09)
-
-
-### Bug Fixes
-
-* **docs:** Use 4 spaces indentation for list items ([ae5a512](https://github.com/jrappen/sublime-distractionless/commit/ae5a512cbae1c99212127a0764156ebe6249e665))
-
+# [2.4.0](https://github.com/jrappen/sublime-distractionless/compare/2.3.0...2.4.0) (2020-03-09)
 
 ### Features
 
 * **Package Control:** Add PkgCtrl channel file ([1855bb3](https://github.com/jrappen/sublime-distractionless/commit/1855bb3c99c0e7d3ee474cafa2d8c99c90c587c9))
 
-
-
-## [2.3.8](https://github.com/jrappen/sublime-distractionless/compare/2.3.7...2.3.8) (2020-03-05)
-
-
 ### Bug Fixes
 
+* **docs:** Use 4 spaces indentation for list items ([ae5a512](https://github.com/jrappen/sublime-distractionless/commit/ae5a512cbae1c99212127a0764156ebe6249e665))
 * **node:** Bump engines and devDependencies ([1e68376](https://github.com/jrappen/sublime-distractionless/commit/1e68376c2baed325294a37621b2bfa7244a19171))
-
-
-
-## [2.3.7](https://github.com/jrappen/sublime-distractionless/compare/2.3.0...2.3.7) (2020-02-14)
-
-### Bug Fixes
-
 * **docs:** Use `jsonc` for codeblocks ([a146e4c](https://github.com/jrappen/sublime-distractionless/commit/a146e4c06d0ed7e737207e978a17daf39f83a3ed))
 * **python:** Fix `distractionless_open_docs` ([f74b99b](https://github.com/jrappen/sublime-distractionless/commit/f74b99b5c6e168edb1dfcd2bc80c0c46e16ac7e3))
 * **python:** Use window commands not text commands ([57960db](https://github.com/jrappen/sublime-distractionless/commit/57960dbc54059065d6e462bfb310353b3e2b362b))
