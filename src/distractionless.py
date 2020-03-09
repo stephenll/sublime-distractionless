@@ -50,7 +50,7 @@ def increment_counter(id):
 
     return counters[id]
 
-
+# TODO: add type hints
 def reset_view_setting(V_PREF, SYNTAX_PREF, PREF, setting, default):
 
     if SYNTAX_PREF is not None:
@@ -59,11 +59,13 @@ def reset_view_setting(V_PREF, SYNTAX_PREF, PREF, setting, default):
         V_PREF.set(setting, PREF.get(setting, default))
 
 
+# TODO: add type hints
 def set_view_setting(V_PREF, DF_PREF, setting, default):
 
     V_PREF.set(setting, DF_PREF.get(setting, default))
 
 
+# TODO: add type hints
 class DistractionlessListener(sublime_plugin.EventListener):
 
     @staticmethod

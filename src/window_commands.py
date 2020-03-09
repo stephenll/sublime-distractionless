@@ -9,6 +9,7 @@ import sublime_plugin
 PKG_NAME = __package__.split('.')[0]
 
 
+# TODO: add type hints
 class DistractionlessOpenDocs(sublime_plugin.WindowCommand):
 
     def run(self, resource_path='docs/README.en.md'):
