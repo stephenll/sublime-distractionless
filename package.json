@@ -1,6 +1,6 @@
 {
     "name": "sublime-distractionless",
-    "version": "2.5.0",
+    "version": "2.5.1",
     "description": "Automatic windowed distraction free mode while editing in Sublime Text.",
     "author": {
         "name": "Johannes Rappen",
