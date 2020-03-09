@@ -15,14 +15,16 @@ def load_settings(reload=False):
 
     try:
         global DL_PREF
-        DL_PREF = sublime.load_settings(f'{PKG_NAME}.sublime-settings')
+        DL_PREF = sublime.load_settings('{}.sublime-settings'.format(PKG_NAME))
+        # TODO: DL_PREF = sublime.load_settings(f'{PKG_NAME}.sublime-settings')
         DL_PREF.clear_on_change('reload')
         DL_PREF.add_on_change('reload', lambda: load_settings(reload=True))
     except Exception as e:
         print(e)
 
     if reload:
-        sublime.status_message(f'{PKG_NAME}: Reloaded settings on change')
+        sublime.status_message('{}: Reloaded settings on change'.format(PKG_NAME))
+        # TODO: sublime.status_message(f'{PKG_NAME}: Reloaded settings on change')
 
 
 def plugin_loaded():
