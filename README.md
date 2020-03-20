@@ -7,19 +7,34 @@
 
 # distractionless plug-in for [Sublime Text](https://www.sublimetext.com)
 
+> Automatic windowed distraction free mode while editing in Sublime Text.
+
+* [Documentation](#documentation)
+    * [English](#english)
+    * [German (Deutsch)](#german-deutsch)
+* [Requirements](#requirements)
+* [Installation](#installation)
+    * [Installation via Package Control](#installation-via-package-control)
+* [Usage](#usage)
+    * [Settings](#settings)
+* [Source Code](#source-code)
+    * [License](#license)
+    * [Issues](#issues)
+* [Donations](#donations)
+
 ![Screencast](./docs/screencast.gif)
 
 > Screencast shows the Adaptive Theme with the Mariana Color Scheme. The font shown is `PragmataPro`.
 
 ## Documentation
 
-### English 🇺🇸🇬🇧🇨🇦🇦🇺🇳🇿
+### English
 
 > Plugin documentation is available in English via the menu or command palette.
 
 [`jrappen/sublime-distractionless:docs/README.en.md@master`](https://github.com/jrappen/sublime-distractionless/blob/master/docs/README.en.md)
 
-### German (Deutsch) 🇩🇪🇦🇹🇨🇭
+### German (Deutsch)
 
 > Eine plug-in Dokumentation ist über das Menü oder die Kurzbefehleingabe (command palette) verfügbar.
 

@@ -1,5 +1,17 @@
 # distractionless Erweiterung für [`Sublime Text`](https://www.sublimetext.com)
 
+> Automatisch in einen fensterbasierten, ablenkungsfreien Modus von Sublime Text beim Editieren wechseln.
+
+* [Voraussetzungen](#voraussetzungen)
+* [Installation](#installation)
+    * [Installation über Package Control](#installation-über-package-control)
+* [Verwendung](#verwendung)
+    * [Einstellungen](#einstellungen)
+* [Quellcode](#quellcode)
+    * [Lizenz](#lizenz)
+    * [Feedback](#feedback)
+* [Spenden](#spenden)
+
 ## Voraussetzungen
 
 distractionless ist als Erweiterung für die **neusten Build** von Sublime Text gedacht und erfordert im Moment **`Build 4065`** oder neuer.

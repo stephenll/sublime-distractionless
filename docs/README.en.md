@@ -1,5 +1,17 @@
 # distractionless plug-in for [`Sublime Text`](https://www.sublimetext.com)
 
+> Automatic windowed distraction free mode while editing in Sublime Text.
+
+* [Requirements](#requirements)
+* [Installation](#installation)
+    * [Installation via Package Control](#installation-via-package-control)
+* [Usage](#usage)
+    * [Settings](#settings)
+* [Source Code](#source-code)
+    * [License](#license)
+    * [Issues](#issues)
+* [Donations](#donations)
+
 ## Requirements
 
 distractionless targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4065`** or later.
