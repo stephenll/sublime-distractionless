@@ -1,21 +1,12 @@
-# [2.6.0](https://github.com/jrappen/sublime-distractionless/compare/2.5.1...2.6.0) (2020-04-27)
-
-
-### Bug Fixes
-
-* **Python:** Unload sublime plugin properly ([bb0136f](https://github.com/jrappen/sublime-distractionless/commit/bb0136f601d9407d832197043ffb81a9b3877e88))
-
+# [2.6.0](https://github.com/jrappen/sublime-distractionless/compare/2.5.0...2.6.0) (2020-04-27)
 
 ### Features
 
 * **Python:** Use new mdpopups API ([f7cd9eb](https://github.com/jrappen/sublime-distractionless/commit/f7cd9ebe52d0a207d17fbda95008febd9dfee7b3))
 
-
-
-## [2.5.1](https://github.com/jrappen/sublime-distractionless/compare/2.5.0...2.5.1) (2020-03-09)
-
 ### Bug Fixes
 
+* **Python:** Unload sublime plugin properly ([bb0136f](https://github.com/jrappen/sublime-distractionless/commit/bb0136f601d9407d832197043ffb81a9b3877e88))
 * **Python source:** Add some TODOs for Py3.8 ([e15bdd8](https://github.com/jrappen/sublime-distractionless/commit/e15bdd8dd8269f80caf93cd3473646546ef06847))
 
 # [2.5.0](https://github.com/jrappen/sublime-distractionless/compare/2.4.0...2.5.0) (2020-03-09)
