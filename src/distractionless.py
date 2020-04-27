@@ -35,6 +35,12 @@ def plugin_loaded():
     load_settings(reload=False)
 
 
+def plugin_unloaded():
+
+    global DL_PREF
+    DL_PREF.clear_on_change('reload')
+
+
 # TODO: add type hints
 def reset_counter(id):
 
