@@ -1,11 +1,8 @@
 ## [2.5.1](https://github.com/jrappen/sublime-distractionless/compare/2.5.0...2.5.1) (2020-03-09)
 
-
 ### Bug Fixes
 
 * **Python source:** Add some TODOs for Py3.8 ([e15bdd8](https://github.com/jrappen/sublime-distractionless/commit/e15bdd8dd8269f80caf93cd3473646546ef06847))
-
-
 
 # [2.5.0](https://github.com/jrappen/sublime-distractionless/compare/2.4.0...2.5.0) (2020-03-09)
 
