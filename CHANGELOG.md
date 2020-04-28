@@ -1,3 +1,12 @@
+## [2.6.1](https://github.com/jrappen/sublime-distractionless/compare/2.6.0...2.6.1) (2020-04-28)
+
+
+### Bug Fixes
+
+* **mdpopups:** Remove passing `cmd` to `mdpopups` ([767630e](https://github.com/jrappen/sublime-distractionless/commit/767630e70b3767e821645d62971378cb19c3b833))
+
+
+
 # [2.6.0](https://github.com/jrappen/sublime-distractionless/compare/2.5.0...2.6.0) (2020-04-27)
 
 ### Features
